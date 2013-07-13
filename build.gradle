@@ -1,0 +1,32 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+apply plugin: 'checkstyle'
+apply plugin: 'codenarc'
+
+group = 'com.cobradoc'
+version = '0.1.0'
+
+repositories {
+    maven {url 'file:///' + new File(System.getProperty('user.home'), '/.m2/repository').absolutePath}
+
+    mavenCentral();
+}
+
+dependencies {
+
+    compile 'junit:junit:4.11'
+    compile 'org.codehaus.groovy:groovy-all:2.1.5'
+//    localGroovy();
+    groovy localGroovy()
+    testCompile 'junit:junit:4.10'
+}
+
+task srcZip(type: Zip) {
+    classifier = 'src'
+    from sourceSets*.allSource
+}
+
+//TODO: add build instructions
+//gradle test - runs tests
+//gradle jar - jars project
+//gradle srcZip - zips up source
