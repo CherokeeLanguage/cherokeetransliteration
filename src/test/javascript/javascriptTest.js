@@ -1,3 +1,11 @@
+/*
+* Copyright cobradoc.com
+* LGPL license
+* You are free to use this software, sell it, trade it, burn it, or even use it to change the world...but we're not responsible for any badness.
+* You must include this disclaimer in your usages along with the email of the original creator of this software: cobradoc@gmail.com
+*
+* Enjoy!  And don't do bad stuff.
+*/
 $(function() {
     function appender(value) {
         $('#transliteration').append(value);

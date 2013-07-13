@@ -1,7 +1,10 @@
 /*
 * Copyright cobradoc.com
-* This script may not be used without written permission from the author
-* To obtain permission contact the author at: cobradoc@gmail.com
+* LGPL license
+* You are free to use this software, sell it, trade it, burn it, or even use it to change the world...but we're not responsible for any badness.
+* You must include this disclaimer in your usages along with the email of the original creator of this software: cobradoc@gmail.com
+*
+* Enjoy!  And don't do bad stuff.
 */
 var syllabaryMap = {"Ꭰ" : "a",
 "Ꭱ" : "e",
