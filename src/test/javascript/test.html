@@ -15,7 +15,6 @@
         $('#fromSyllabary').click(function() {
             var trans = $('#transliteration').val();
             var output = parseSyllabary(trans);
-            output = replace(output);
             $('#tsalagi').val(output);
         });
 
@@ -25,7 +24,6 @@
 
         $('#transliterate').click(function() {
             var value = $('#tsalagi').val();
-            value = reverseReplace(value);
             var printableValue = '';
             var isChecked = $('#includeTransliteration:checked').val() ? true : false;
 

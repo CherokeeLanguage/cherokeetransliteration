@@ -30,15 +30,15 @@ $(function() {
 
         appender('ᎿᏀᎿ' == parseHyphen('hna-nah-hna'));
 
-        appender('ᏣᎳᎩ' == tsalagiToSyllabary(reverseReplace("tsalagi")))
-        appender('ᎠᏆᏚᎵᎭ' == tsalagiToSyllabary(reverseReplace("aquaduliha")))
+        appender('ᏣᎳᎩ' == tsalagiToSyllabary("tsalagi"))
+        appender('ᎠᏆᏚᎵᎭ' == tsalagiToSyllabary("aquaduliha"))
 
-        appender('ᏣᎳᎩ' == tsalagiToSyllabary(replace("jalagi")))
-        appender('ᎠᏆᏚᎵᎭ' == tsalagiToSyllabary(replace("agwaduliha")))
+        appender('ᏣᎳᎩ' == tsalagiToSyllabary("jalagi"))
+        appender('ᎠᏆᏚᎵᎭ' == tsalagiToSyllabary("agwaduliha"))
 
-        appender('ᏞᏟᏠᏡᏢ' == tsalagiToSyllabary(replace("tletlitlotlutlv")))
-        appender('ᏞᏟᏠᏡᏢ' == tsalagiToSyllabary(replace("dledlidlodludlv")))
-        appender(tsalagiToSyllabary(replace("tletlitlotlutlv"))  == tsalagiToSyllabary(replace("dledlidlodludlv")))
+        appender('ᏞᏟᏠᏡᏢ' == tsalagiToSyllabary("tletlitlotlutlv"))
+        appender('ᏞᏟᏠᏡᏢ' == tsalagiToSyllabary("dledlidlodludlv"))
+        appender(tsalagiToSyllabary("tletlitlotlutlv")  == tsalagiToSyllabary("dledlidlodludlv"))
     }
 
     runTests();
