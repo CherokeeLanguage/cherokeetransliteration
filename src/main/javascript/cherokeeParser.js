@@ -303,15 +303,7 @@ function tsalagiToSyllabary(data) {
             returnValue += "data is invalid";
         }
 
-        if (it == ' ') {
-            returnValue += " ";
-        }
-
-        if (it == '-') {
-            returnValue += "-";
-        }
-
-        if (it == '.' || it == ':' || it == ';' || it == '?' || it == '/' || it == ' ' || it == ',') {
+        if (it == '.' || it == ':' || it == ';' || it == '?' || it == '/' || it == ' ' || it == ',' || it == '-') {
             returnValue += it;
         }
 
