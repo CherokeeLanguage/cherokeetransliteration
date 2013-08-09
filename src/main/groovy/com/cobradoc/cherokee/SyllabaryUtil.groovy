@@ -11,7 +11,6 @@ package com.cobradoc.cherokee;
 //TODO: move each letter itaration out to its own method - need to figure out a way to handle it so it will increment correctly
 // the idea being that in the end the code will be almost identical for JS and Groovy
 public class SyllabaryUtil {
-    //TODO: add support for lettering definitions -- meaning that qua would be gwa, etc
     def syllabaryMap = ["Ꭰ" : "a",
     "Ꭱ" : "e",
     "Ꭲ" : "i",
@@ -70,11 +69,11 @@ public class SyllabaryUtil {
     "Ꮧ" : "di",
     "Ꮨ" : "ti",
     "Ꮩ" : "do",
-    "Ꮩ" : "to",
+//    "Ꮩ" : "to",
     "Ꮪ" : "tu",
-    "Ꮪ" : "du",
+//    "Ꮪ" : "du",
     "Ꮫ" : "tv",
-    "Ꮫ" : "dv",
+//    "Ꮫ" : "dv",
     "Ꮬ" : "dla",
     "Ꮭ" : "tla",
     "Ꮮ" : "tle",
@@ -266,17 +265,6 @@ public class SyllabaryUtil {
         return data;
     }
 
-    def parseSentence(value) {
-        def returnValue = "";
-        def values = value.split(" ");
-        for (def i = 0; i < values.length; i++) {
-            returnValue += parseHyphen(values[i]);
-            returnValue += " ";
-        }
-
-        return returnValue;
-    }
-
     def tsalagiToSyllabary(String data) {
         data = data.toLowerCase();
         def returnValue = [];
@@ -303,10 +291,8 @@ public class SyllabaryUtil {
                  it==','||it=='.'||it=='!'||
                  it=='?'||it=='['||it=='];'||
                  it==':'||it==';'||it=='~'||
-                 it=='('||it==')'||it=='j'
+                 it=='('||it==')'/*||it=='j'*/
                 )) {
-            //    printf("\nError:  Illegal character %c at %d.",it, counter);
-            //    errordisp(counter+1,it,data);
                 returnValue += "data is invalid";
             }
 
@@ -327,19 +313,6 @@ public class SyllabaryUtil {
             } else if (it == 'v') {
                 returnValue += syllabaryMap2.v;
             }
-
-        //    g(it, counter, data, datasize, syllabaryMap2)
-        //    k(it, counter, data, datasize, syllabaryMap2)
-        //    l(it, counter, data, datasize, syllabaryMap2)
-        //    s(it, counter, data, datasize, syllabaryMap2)
-        //    d(it, counter, data, datasize, syllabaryMap2)
-        //    y(it, counter, data, datasize, syllabaryMap2)
-        //    m(it, counter, data, datasize, syllabaryMap2)
-        //    n(it, counter, data, datasize, syllabaryMap2)
-        //    t(it, counter, data, datasize, syllabaryMap2)
-        //    w(it, counter, data, datasize, syllabaryMap2)
-        //    qu(it, counter, data, datasize, syllabaryMap2)
-        //    h(it, counter, data, datasize, syllabaryMap2)
 
             if (it == 'd') {
                 if (counter + 1 < datasize) {
@@ -481,6 +454,9 @@ public class SyllabaryUtil {
                     if (itt == 'a') {
                         returnValue += syllabaryMap2.ka;
                         counter++;
+                    } else {
+                        //should this really be 'ga' or return not a valid letter?
+                        returnValue += "not a valid letter";
                     }
                 } else {
                     returnValue += "not a valid letter";
@@ -613,6 +589,8 @@ public class SyllabaryUtil {
                         } else {
                             returnValue += "not a valid letter";
                         }
+                    } else {
+                        returnValue += 'not a valid letter';
                     }
                 } else {
                     returnValue += "not a valid letter";
@@ -640,9 +618,6 @@ public class SyllabaryUtil {
                         counter++;
                     } else if (itt == "v") {
                         returnValue += syllabaryMap2.sv;
-                        counter++;
-                    } else if (itt == "s") {
-                        returnValue += syllabaryMap2.s;
                         counter++;
                     } else {
                         // returnValue += "not a valid letter";
@@ -701,8 +676,8 @@ public class SyllabaryUtil {
                             } else {
                                 returnValue += "not a valid letter";
                             }
-                    } else {
-                        returnValue += "not a valid letter";
+                        } else {
+                            returnValue += "not a valid letter";
                         }
                     } else if (itt == "s") {
                         if (counter + 2 < datasize) {
@@ -728,8 +703,8 @@ public class SyllabaryUtil {
                             } else {
                                 returnValue += "not a valid letter";
                             }
-                    } else {
-                        returnValue += "not a valid letter";
+                        } else {
+                            returnValue += "not a valid letter";
                         }
                     } else {
                         returnValue += "not a valid letter";

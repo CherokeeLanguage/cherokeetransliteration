@@ -23,9 +23,12 @@ class SyllabaryTest extends GroovyTestCase {
         assertTrue ('ᎿᏀ' == su.tsalagiToSyllabary('hnanah'))
         assertTrue ('Ꮝ' == su.tsalagiToSyllabary('s'))
         assertTrue ('ᎾᏁᏂᏃᏄᏅ' == su.tsalagiToSyllabary('naneninonunv'))
+        assertTrue ('Ꮎ' == su.tsalagiToSyllabary('na'))
         assertTrue ('ᏆᏇᏈᏉᏊᏋ' == su.tsalagiToSyllabary('quaquequiquoquuquv'))
         assertTrue ('ᏌᏎᏏᏐᏑᏒ' == su.tsalagiToSyllabary('sasesisosusv'))
         assertTrue ('ᏓᏕᏗᏙᏚᏛ' == su.tsalagiToSyllabary('dadedidodudv'))
+        //variation of 'du' and 'dv'
+        assertTrue ('ᏚᏛ' == su.tsalagiToSyllabary('tutv'))
         assertTrue ('ᏔᏖᏘ' == su.tsalagiToSyllabary('tateti'))
         assertTrue ('ᏣᏤᏥᏦᏧᏨ' == su.tsalagiToSyllabary('jajejijojujv'))
         assertTrue ('Ꮬ' == su.tsalagiToSyllabary('dla'))
@@ -51,6 +54,10 @@ class SyllabaryTest extends GroovyTestCase {
         assertTrue(su.tsalagiToSyllabary("dawadoa") == su.tsalagiToSyllabary("dawatoa"))
 
         assertTrue('ᏓᏩᏙᎠ' == su.parseHyphen('da-wa-to-a'));
+
+        assertTrue('ᏒᎦᏔ' == su.tsalagiToSyllabary('svgata'))
+        assertTrue('Ꮢnot a valid letterᏔ' == su.tsalagiToSyllabary('svkta'))
+        assertTrue('ᏒᏍᏒᎪ' == su.tsalagiToSyllabary('svssvgo'))
     }
 
     public void testPhrases() {
@@ -68,6 +75,68 @@ class SyllabaryTest extends GroovyTestCase {
 
     public void testSentences() {
         def su = new SyllabaryUtil();
-        assertTrue('ᏌᏊ  ᎠᏲᏟ  ᎠᎩᎧᎭ.' == su.tsalagiToSyllabary('saquu ayotli agikaha.'));
+        def TEXT = 'saquu ayotli agikaha.'
+        assertTrue('ᏌᏊ ᎠᏲᏟ ᎠᎩᎧᎭ.' == su.tsalagiToSyllabary(TEXT));
+        assertTrue('ᏌᏊ ᎠᏲᏟ ᎠᎩᎧᎭ.' == su.tsalagiToSyllabary('sa-quu a-yo-tli a-gi-ka-ha.'))
+
+    }
+
+    public void testBadInput() {
+        def su = new SyllabaryUtil();
+
+        println su.tsalagiToSyllabary("%")
+
+        assertTrue('not a valid letter' == su.tsalagiToSyllabary('k'))
+        assertTrue('not a valid letter' == su.tsalagiToSyllabary('l'))
+        assertTrue("not a valid letter" == su.tsalagiToSyllabary('m'))
+        assertTrue("not a valid letter" == su.tsalagiToSyllabary('n'))
+        assertTrue("not a valid letter" == su.tsalagiToSyllabary('q'))
+        assertTrue("not a valid letter" == su.tsalagiToSyllabary('t'))
+        assertTrue("not a valid letter" == su.tsalagiToSyllabary("w"))
+
+
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('ly'))
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('my'))
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('ny'))
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('qy'))
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('tl'))
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary("ty"))
+        assertTrue("not a valid letterᏍ" == su.tsalagiToSyllabary("ts"))
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary("wy"))
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary("yy"))
+
+
+        assertTrue("not a valid letterᏍnot a valid letter" == su.tsalagiToSyllabary("tsy"))
+
+        assertTrue("not a valid letternot a valid letternot a valid letter" == su.tsalagiToSyllabary('tly'))
+        assertTrue("not a valid letterᎤnot a valid letter" == su.tsalagiToSyllabary('quy'))
+    }
+
+    public void testReverseReplace() {
+        def su = new SyllabaryUtil();
+        assertTrue("gwa" == su.reverseReplace("qua"))
+
+        assertTrue("gwe" == su.reverseReplace("que"))
+        assertTrue("gwi" == su.reverseReplace("qui"))
+        assertTrue("gwo" == su.reverseReplace("quo"))
+        assertTrue("gwu" == su.reverseReplace("quu"))
+        assertTrue("gwv" == su.reverseReplace("quv"))
+        assertTrue("ja" == su.reverseReplace("tsa"))
+        assertTrue("je" == su.reverseReplace("tse"))
+        assertTrue("ji" == su.reverseReplace("tsi"))
+        assertTrue("jo" == su.reverseReplace("tso"))
+        assertTrue("ju" == su.reverseReplace("tsu"))
+        assertTrue("jv" == su.reverseReplace("tsv"))
+        assertTrue("tle" == su.reverseReplace("dle"))
+        assertTrue("tli" == su.reverseReplace("dli"))
+        assertTrue("tlo" == su.reverseReplace("dlo"))
+        assertTrue("tlu" == su.reverseReplace("dlu"))
+        assertTrue("tlv" == su.reverseReplace("dlv"))
+    }
+
+    public void testReplace() {
+        def su = new SyllabaryUtil();
+
+        assertTrue("wado" == su.replace("wa-do"));
     }
 }

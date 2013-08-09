@@ -64,11 +64,11 @@ var syllabaryMap = {"Ꭰ" : "a",
 "Ꮧ" : "di",
 "Ꮨ" : "ti",
 "Ꮩ" : "do",
-"Ꮩ" : "to",
+//    "Ꮩ" : "to",
 "Ꮪ" : "tu",
-"Ꮪ" : "du",
+//    "Ꮪ" : "du",
 "Ꮫ" : "tv",
-"Ꮫ" : "dv",
+//    "Ꮫ" : "dv",
 "Ꮬ" : "dla",
 "Ꮭ" : "tla",
 "Ꮮ" : "tle",
@@ -301,8 +301,6 @@ function tsalagiToSyllabary(data) {
              it==':'||it==';'||it=='~'||
              it=='('||it==')'||it=='j'
             )) {
-        //    printf("\nError:  Illegal character %c at %d.",it, counter);
-        //    errordisp(counter+1,it,data);
             returnValue += "data is invalid";
         }
 
@@ -464,6 +462,9 @@ function tsalagiToSyllabary(data) {
                 if (itt == 'a') {
                     returnValue += syllabaryMap2.ka;
                     counter++;
+                } else {
+                    //should this really be 'ga' or return not a valid letter?
+                    returnValue += "not a valid letter";
                 }
             } else {
                 returnValue += "not a valid letter";
@@ -623,9 +624,6 @@ function tsalagiToSyllabary(data) {
                     counter++;
                 } else if (itt == "v") {
                     returnValue += syllabaryMap2.sv;
-                    counter++;
-                } else if (itt == "s") {
-                    returnValue += syllabaryMap2.s;
                     counter++;
                 } else {
                     // returnValue += "not a valid letter";

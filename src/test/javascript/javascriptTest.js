@@ -38,15 +38,19 @@ $(function() {
 
         appender('ᎿᏀᎿ' == parseHyphen('hna-nah-hna'));
 
-        appender('ᏣᎳᎩ' == tsalagiToSyllabary("tsalagi"))
-        appender('ᎠᏆᏚᎵᎭ' == tsalagiToSyllabary("aquaduliha"))
+        appender('ᏣᎳᎩ' == tsalagiToSyllabary("tsalagi"));
+        appender('ᎠᏆᏚᎵᎭ' == tsalagiToSyllabary("aquaduliha"));
 
-        appender('ᏣᎳᎩ' == tsalagiToSyllabary("jalagi"))
-        appender('ᎠᏆᏚᎵᎭ' == tsalagiToSyllabary("agwaduliha"))
+        appender('ᏣᎳᎩ' == tsalagiToSyllabary("jalagi"));
+        appender('ᎠᏆᏚᎵᎭ' == tsalagiToSyllabary("agwaduliha"));
 
-        appender('ᏞᏟᏠᏡᏢ' == tsalagiToSyllabary("tletlitlotlutlv"))
-        appender('ᏞᏟᏠᏡᏢ' == tsalagiToSyllabary("dledlidlodludlv"))
-        appender(tsalagiToSyllabary("tletlitlotlutlv")  == tsalagiToSyllabary("dledlidlodludlv"))
+        appender('ᏞᏟᏠᏡᏢ' == tsalagiToSyllabary("tletlitlotlutlv"));
+        appender('ᏞᏟᏠᏡᏢ' == tsalagiToSyllabary("dledlidlodludlv"));
+        appender(tsalagiToSyllabary("tletlitlotlutlv")  == tsalagiToSyllabary("dledlidlodludlv"));
+
+        appender('ᏒᎦᏔ' == tsalagiToSyllabary('svgata'));
+        appender('Ꮢnot a valid letterᏔ' == tsalagiToSyllabary('svkta'));
+        appender('ᏒᏍᏒᎪ' == tsalagiToSyllabary('svssvgo'));
     }
 
     runTests();
