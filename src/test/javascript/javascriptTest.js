@@ -51,6 +51,13 @@ $(function() {
         appender('ᏒᎦᏔ' == tsalagiToSyllabary('svgata'));
         appender('Ꮢnot a valid letterᏔ' == tsalagiToSyllabary('svkta'));
         appender('ᏒᏍᏒᎪ' == tsalagiToSyllabary('svssvgo'));
+
+        testCH();
+    }
+
+    function testCH() {
+        appender('jv' == tsalagiToSyllabary('chv'));
+        appender('ᎠᏂᏨᏯ' == tsalagiToSyllabary('anichvya'));
     }
 
     runTests();

@@ -139,4 +139,10 @@ class SyllabaryTest extends GroovyTestCase {
 
         assertTrue("wado" == su.replace("wa-do"));
     }
+
+    public void testCH() {
+        def su = new SyllabaryUtil();
+        assertTrue("jv" == su.reverseReplace("chv"));
+        assertTrue("ᎠᏂᏨᏯ" == su.tsalagiToSyllabary("anichvya"));
+    }
 }

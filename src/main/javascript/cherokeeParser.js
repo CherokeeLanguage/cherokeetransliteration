@@ -225,6 +225,12 @@ function reverseReplace(data) {
     data = data.replace('tso', 'jo');
     data = data.replace('tsu', 'ju');
     data = data.replace('tsv', 'jv');
+    data = data.replace('cha', 'ja');
+    data = data.replace('che', 'je');
+    data = data.replace('chi', 'ji');
+    data = data.replace('cho', 'jo');
+    data = data.replace('chu', 'ju');
+    data = data.replace('chv', 'jv');
     data = data.replace('dle', 'tle');
     data = data.replace('dli', 'tli');
     data = data.replace('dlo', 'tlo');
@@ -243,6 +249,12 @@ function replace(data) {
     data = data.replace('gwo', 'quo');
     data = data.replace('gwu', 'quu');
     data = data.replace('gwv', 'quv');
+    data = data.replace('cha', 'tsa');
+    data = data.replace('che', 'tse');
+    data = data.replace('chi', 'tsi');
+    data = data.replace('cho', 'tso');
+    data = data.replace('chu', 'tsu');
+    data = data.replace('chv', 'tsv');
     data = data.replace('ja', 'tsa');
     data = data.replace('je', 'tse');
     data = data.replace('ji', 'tsi');
