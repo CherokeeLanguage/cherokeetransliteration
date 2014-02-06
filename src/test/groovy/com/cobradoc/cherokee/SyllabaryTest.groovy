@@ -84,7 +84,7 @@ class SyllabaryTest extends GroovyTestCase {
     public void testBadInput() {
         def su = new SyllabaryUtil();
 
-        println su.tsalagiToSyllabary("%")
+//        println su.tsalagiToSyllabary("%")
 
         assertTrue('not a valid letter' == su.tsalagiToSyllabary('k'))
         assertTrue('not a valid letter' == su.tsalagiToSyllabary('l'))
@@ -144,5 +144,22 @@ class SyllabaryTest extends GroovyTestCase {
         def su = new SyllabaryUtil();
         assertTrue("jv" == su.reverseReplace("chv"));
         assertTrue("ᎠᏂᏨᏯ" == su.tsalagiToSyllabary("anichvya"));
+    }
+
+    public void testDurbinFeelingSpellings() {
+        def su = new SyllabaryUtil();
+        assertTrue("ᏯᏖᎾ" == su.tsalagiToSyllabary("hyahtena"));
+        assertTrue("ᏯᏙᏟ" == su.tsalagiToSyllabary("hyahtohli"));
+        assertTrue("ᏰᎦᏟ" == su.tsalagiToSyllabary("hyehgahli"));
+        assertTrue("ᎢᎦᎷᎦ" == su.tsalagiToSyllabary("igaluhga"));
+        assertTrue("ᏗᏰᎦᏟ" == su.tsalagiToSyllabary("dihyehgahli"));
+        println su.tsalagiToSyllabary("vuluhjvi,uluhjvi")
+        assertTrue("ᎥᎤᎷᏨᎢ,ᎤᎷᏨᎢ" == su.tsalagiToSyllabary("vuluhjvi,uluhjvi"));
+
+        assertTrue("ᎯᎩᏍᎪ ᎢᎳᏏᏗ ᎢᎦᏅᎯᏓ ᏍᏕᏱᏓ ᎤᏮᏔᏅ ᏩᎦ ᎠᎩᎾ ᎠᏍᎳᏗᏍᎬᎢ." == su.tsalagiToSyllabary("Hiksgo ilasihdi iganvhida sdeyida uwhtanv wahga agina asladisgvi."));
+        assertTrue("ᎯᎳ ᎢᎩᏓ ᎠᎵᏍᏇᏚᏬ ᎭᎵᏍᏇᏚᎲᏍᎩ?" == su.tsalagiToSyllabary("Hila ikida alisgwetuwo halisgwetuhvsgi?"));
+        assertTrue("ᏍᎪᎯ ᎢᎳᏏᏗ ᏂᎦᏅᎭ" == su.tsalagiToSyllabary("Sgohi ilasihdi niganvha"));
+        assertTrue("ᎢᎸᎯᏳᎢᏍ ᎢᎾᏓ ᏣᎦᏟᏨᎢ" == su.tsalagiToSyllabary("Ilvhiyuis inada tsagahlijvi"));
+        assertTrue("ᎢᎸᏍᎩ ᎢᏳᏟᎶᏓ ᎡᎳᏗ ᎤᏂᎩᏒᎢ ᎩᎳ ᎤᏓᏣᏁᎸᎢ" == su.tsalagiToSyllabary("Ilvsgi iyuhliloda eladi uhnigisvi kila udajanelvi"));
     }
 }

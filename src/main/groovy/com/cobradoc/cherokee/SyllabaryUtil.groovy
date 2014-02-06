@@ -239,6 +239,7 @@ public class SyllabaryUtil {
         data = data.replace('dlo', 'tlo');
         data = data.replace('dlu', 'tlu');
         data = data.replace('dlv', 'tlv');
+
 //        data = data.replace('do', 'to');
 
         return data;
@@ -268,6 +269,33 @@ public class SyllabaryUtil {
         data = data.replace('dlo', 'tlo');
         data = data.replace('dlu', 'tlu');
         data = data.replace('dlv', 'tlv');
+
+        //from durbin feeling dictionary
+        data = data.replace('hla', 'tla');
+        data = data.replace('hli', 'tli');
+        data = data.replace('hyah', 'ya');
+        data = data.replace('hya', 'ya');
+        data = data.replace('hyeh', 'ye');
+
+        data = data.replace('htsv', 'tsv');
+
+        data = data.replace('ki', 'gi');
+        data = data.replace('hga', 'ga');
+        data = data.replace('hgi', 'gi');
+        data = data.replace('hgo', 'go');
+        data = data.replace('hgu', 'gu');
+        data = data.replace('hgv', 'gv');
+
+        data = data.replace("l ", 'li ');
+        data = data.replace("d ", 'da ');
+
+        data = data.replace("hwi", 'wi');
+        data = data.replace('wh', 'wv');
+        data = data.replace('hdi', 'di');
+        data = data.replace('hje', 'je');
+        data = data.replace('hta', 'ta');
+        data = data.replace('ks', 'gis');
+
 //        data = data.replace('to', 'do');
 
         while (data.indexOf("-") != -1) {

@@ -213,29 +213,29 @@ function parseSyllabary(value) {
 }
 
 function reverseReplace(data) {
-    data = data.replace('qua', 'gwa');
-    data = data.replace('que', 'gwe');
-    data = data.replace('qui', 'gwi');
-    data = data.replace('quo', 'gwo');
-    data = data.replace('quu', 'gwu');
-    data = data.replace('quv', 'gwv');
-    data = data.replace('tsa', 'ja');
-    data = data.replace('tse', 'je');
-    data = data.replace('tsi', 'ji');
-    data = data.replace('tso', 'jo');
-    data = data.replace('tsu', 'ju');
-    data = data.replace('tsv', 'jv');
-    data = data.replace('cha', 'ja');
-    data = data.replace('che', 'je');
-    data = data.replace('chi', 'ji');
-    data = data.replace('cho', 'jo');
-    data = data.replace('chu', 'ju');
-    data = data.replace('chv', 'jv');
-    data = data.replace('dle', 'tle');
-    data = data.replace('dli', 'tli');
-    data = data.replace('dlo', 'tlo');
-    data = data.replace('dlu', 'tlu');
-    data = data.replace('dlv', 'tlv');
+    data = data.replace(/qua/g, 'gwa');
+    data = data.replace(/que/g, 'gwe');
+    data = data.replace(/qui/g, 'gwi');
+    data = data.replace(/quo/g, 'gwo');
+    data = data.replace(/quu/g, 'gwu');
+    data = data.replace(/quv/g, 'gwv');
+    data = data.replace(/tsa/g, 'ja');
+    data = data.replace(/tse/g, 'je');
+    data = data.replace(/tsi/g, 'ji');
+    data = data.replace(/tso/g, 'jo');
+    data = data.replace(/tsu/g, 'ju');
+    data = data.replace(/tsv/g, 'jv');
+    data = data.replace(/cha/g, 'ja');
+    data = data.replace(/che/g, 'je');
+    data = data.replace(/chi/g, 'ji');
+    data = data.replace(/cho/g, 'jo');
+    data = data.replace(/chu/g, 'ju');
+    data = data.replace(/chv/g, 'jv');
+    data = data.replace(/dle/g, 'tle');
+    data = data.replace(/dli/g, 'tli');
+    data = data.replace(/dlo/g, 'tlo');
+    data = data.replace(/dlu/g, 'tlu');
+    data = data.replace(/dlv/g, 'tlv');
 
     /*data = data.replace('do', 'to');*/
 
@@ -243,30 +243,57 @@ function reverseReplace(data) {
 }
 
 function replace(data) {
-    data = data.replace('gwa', 'qua');
-    data = data.replace('gwe', 'que');
-    data = data.replace('gwi', 'qui');
-    data = data.replace('gwo', 'quo');
-    data = data.replace('gwu', 'quu');
-    data = data.replace('gwv', 'quv');
-    data = data.replace('cha', 'tsa');
-    data = data.replace('che', 'tse');
-    data = data.replace('chi', 'tsi');
-    data = data.replace('cho', 'tso');
-    data = data.replace('chu', 'tsu');
-    data = data.replace('chv', 'tsv');
-    data = data.replace('ja', 'tsa');
-    data = data.replace('je', 'tse');
-    data = data.replace('ji', 'tsi');
-    data = data.replace('jo', 'tso');
-    data = data.replace('ju', 'tsu');
-    data = data.replace('jv', 'tsv');
-    data = data.replace('dle', 'tle');
-    data = data.replace('dli', 'tli');
-    data = data.replace('dlo', 'tlo');
-    data = data.replace('dlu', 'tlu');
-    data = data.replace('dlv', 'tlv');
-    /*data = data.replace('to', 'do');*/
+    data = data.replace(/gwa/g, 'qua');
+    data = data.replace(/gwe/g, 'que');
+    data = data.replace(/gwi/g, 'qui');
+    data = data.replace(/gwo/g, 'quo');
+    data = data.replace(/gwu/g, 'quu');
+    data = data.replace(/gwv/g, 'quv');
+    data = data.replace(/cha/g, 'tsa');
+    data = data.replace(/che/g, 'tse');
+    data = data.replace(/chi/g, 'tsi');
+    data = data.replace(/cho/g, 'tso');
+    data = data.replace(/chu/g, 'tsu');
+    data = data.replace(/chv/g, 'tsv');
+    data = data.replace(/ja/g, 'tsa');
+    data = data.replace(/je/g, 'tse');
+    data = data.replace(/ji/g, 'tsi');
+    data = data.replace(/jo/g, 'tso');
+    data = data.replace(/ju/g, 'tsu');
+    data = data.replace(/jv/g, 'tsv');
+    data = data.replace(/dle/g, 'tle');
+    data = data.replace(/dli/g, 'tli');
+    data = data.replace(/dlo/g, 'tlo');
+    data = data.replace(/dlu/g, 'tlu');
+    data = data.replace(/dlv/g, 'tlv');
+
+    //from durbin feeling dictionary
+    data = data.replace(/hla/g, 'tla');
+    data = data.replace(/hli/g, 'tli');
+    data = data.replace(/hyah/g, 'ya');
+    data = data.replace(/hya/g, 'ya');
+    data = data.replace(/hyeh/g, 'ye');
+
+    data = data.replace(/htsv/g, 'tsv');
+
+    data = data.replace(/ki/g, 'gi');
+    data = data.replace(/hga/g, 'ga');
+    data = data.replace(/hgi/g, 'gi');
+    data = data.replace(/hgo/g, 'go');
+    data = data.replace(/hgu/g, 'gu');
+    data = data.replace(/hgv/g, 'gv');
+
+    data = data.replace(/l /g, 'li ');
+    data = data.replace(/d /g, 'da ');
+
+    data = data.replace(/hwi/g, 'wi');
+    data = data.replace(/wh/g, 'wv');
+    data = data.replace(/hdi/g, 'di');
+    data = data.replace(/hje/g, 'je');
+    data = data.replace(/hta/g, 'ta');
+    data = data.replace(/ks/g, 'gis');
+
+//        data = data.replace('to', 'do');
 
     while (data.indexOf("-") != -1) {
         data = data.replace('-', '');
@@ -311,9 +338,14 @@ function tsalagiToSyllabary(data) {
              it==','||it=='.'||it=='!'||
              it=='?'||it=='['||it=='];'||
              it==':'||it==';'||it=='~'||
-             it=='('||it==')'||it=='j'
+             it=='('||it==')'||it=='j'||
+             it=='\n'
             )) {
             returnValue += "data is invalid";
+        }
+
+        if (it == '\n') {
+            returnValue += "NEWLINE";
         }
 
         if (it == '.' || it == ':' || it == ';' || it == '?' || it == '/' || it == ' ' || it == ',' || it == '-') {
@@ -792,6 +824,8 @@ function tsalagiToSyllabary(data) {
             }
         }
     }
+
+    returnValue = returnValue.replace(/NEWLINE/g, "\n");
 
     return returnValue;
 }
