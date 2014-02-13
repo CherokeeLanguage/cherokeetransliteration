@@ -294,7 +294,10 @@ public class SyllabaryUtil {
         data = data.replace('hdi', 'di');
         data = data.replace('hje', 'je');
         data = data.replace('hta', 'ta');
-        data = data.replace('ks', 'gis');
+
+        //sometimes ks is gis sometimes it's gas
+        //same with nh - could be nv or could be ne
+//        data = data.replace('ks', 'gis');
 
 //        data = data.replace('to', 'do');
 

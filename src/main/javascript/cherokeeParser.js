@@ -291,7 +291,7 @@ function replace(data) {
     data = data.replace(/hdi/g, 'di');
     data = data.replace(/hje/g, 'je');
     data = data.replace(/hta/g, 'ta');
-    data = data.replace(/ks/g, 'gis');
+//    data = data.replace(/ks/g, 'gis');
 
 //        data = data.replace('to', 'do');
 
