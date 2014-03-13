@@ -96,12 +96,7 @@ var syllabaryMap = {"Ꭰ" : "a",
 "Ᏼ" : "yv",
 " " : " "};
 
-var syllabaryMap2 = {"a" : "Ꭰ",
-"e" : "Ꭱ",
-"i" : "Ꭲ",
-"o" : "Ꭳ",
-"u" : "Ꭴ",
-"v" : "Ꭵ",
+var syllabaryMap2 = {
 "ga" : "Ꭶ",
 "ka" : "Ꭷ",
 "ge" : "Ꭸ",
@@ -115,6 +110,13 @@ var syllabaryMap2 = {"a" : "Ꭰ",
 "ho" : "Ꮀ",
 "hu" : "Ꮁ",
 "hv" : "Ꮂ",
+"dla" : "Ꮬ",
+"tla" : "Ꮭ",
+"tle" : "Ꮮ",
+"tli" : "Ꮯ",
+"tlo" : "Ꮰ",
+"tlu" : "Ꮱ",
+"tlv" : "Ꮲ",
 "la" : "Ꮃ",
 "le" : "Ꮄ",
 "li" : "Ꮅ",
@@ -126,9 +128,9 @@ var syllabaryMap2 = {"a" : "Ꭰ",
 "mi" : "Ꮋ",
 "mo" : "Ꮌ",
 "mu" : "Ꮍ",
-"na" : "Ꮎ",
 "hna" : "Ꮏ",
 "nah" : "Ꮐ",
+"na" : "Ꮎ",
 "ne" : "Ꮑ",
 "ni" : "Ꮒ",
 "no" : "Ꮓ",
@@ -140,8 +142,13 @@ var syllabaryMap2 = {"a" : "Ꭰ",
 "quo" : "Ꮙ",
 "quu" : "Ꮚ",
 "quv" : "Ꮛ",
+"tsa" : "Ꮳ",
+"tse" : "Ꮴ",
+"tsi" : "Ꮵ",
+"tso" : "Ꮶ",
+"tsu" : "Ꮷ",
+"tsv" : "Ꮸ",
 "sa" : "Ꮜ",
-"s" : "Ꮝ",
 "se" : "Ꮞ",
 "si" : "Ꮟ",
 "so" : "Ꮠ",
@@ -159,19 +166,6 @@ var syllabaryMap2 = {"a" : "Ꭰ",
 "tu" : "Ꮪ",
 "dv" : "Ꮫ",
 "tv" : "Ꮫ",
-"dla" : "Ꮬ",
-"tla" : "Ꮭ",
-"tle" : "Ꮮ",
-"tli" : "Ꮯ",
-"tlo" : "Ꮰ",
-"tlu" : "Ꮱ",
-"tlv" : "Ꮲ",
-"tsa" : "Ꮳ",
-"tse" : "Ꮴ",
-"tsi" : "Ꮵ",
-"tso" : "Ꮶ",
-"tsu" : "Ꮷ",
-"tsv" : "Ꮸ",
 "wa" : "Ꮹ",
 "we" : "Ꮺ",
 "wi" : "Ꮻ",
@@ -184,7 +178,43 @@ var syllabaryMap2 = {"a" : "Ꭰ",
 "yo" : "Ᏺ",
 "yu" : "Ᏻ",
 "yv" : "Ᏼ",
+"s" : "Ꮝ",
+"a" : "Ꭰ",
+"e" : "Ꭱ",
+"i" : "Ꭲ",
+"o" : "Ꭳ",
+"u" : "Ꭴ",
+"v" : "Ꭵ",
 " " : " "};
+
+var latinMap = {
+"a" : "a",
+"b" : "b",
+"c" : "c",
+"d" : "d",
+"e" : "e",
+"f" : "f",
+"g" : "g",
+"h" : "h",
+"i" : "i",
+"j" : "j",
+"k" : "k",
+"l" : "l",
+"m" : "m",
+"n" : "n",
+"o" : "o",
+"p" : "p",
+"q" : "q",
+"r" : "r",
+"s" : "s",
+"t" : "t",
+"u" : "u",
+"v" : "v",
+"w" : "w",
+"x" : "x",
+"y" : "y",
+"z" : "z"
+};
 
 //does not handle spaces - use parseSentence for spaces
 function parseHyphen(value) {
@@ -203,11 +233,15 @@ function parseSyllabary(value) {
     var returnValue = '';
     for (var i = 0; i < value.length; i++) {
         var charat = value.charAt(i);
-        var tmp = syllabaryMap['' + charat];
-        returnValue += tmp;
+        if (charat == '.' || charat == '?' || charat == '-' || charat == ',') {
+            returnValue += charat;
+        } else {
+            var tmp = syllabaryMap['' + charat];
+            returnValue += tmp;
+        }
     }
 
-        returnValue = replace(returnValue);
+    returnValue = replace(returnValue);
 
     return returnValue;
 }
@@ -269,6 +303,7 @@ function replace(data) {
 
     //from durbin feeling dictionary
     data = data.replace(/hla/g, 'tla');
+    data = data.replace(/hle/g, 'tle');
     data = data.replace(/hli/g, 'tli');
     data = data.replace(/hyah/g, 'ya');
     data = data.replace(/hya/g, 'ya');
@@ -315,517 +350,21 @@ function parseSentence(value) {
 
 function tsalagiToSyllabary(data) {
     data = data.toLowerCase();
-    var returnValue = [];
-
     data = replace(data);
 
-    var datasize = data.length;
-
-    for (var counter = 0; counter < datasize; counter++) {
-        var it = data.charAt(counter);
-
-        //legal characters are
-        //	\'-. ,!?[];:;aeiouvgkhlmnqsdtwyj
-        //Verify legal character
-        if(
-           !(it=='a'||it=='e'||it=='i'||
-             it=='o'||it=='u'||it=='v'||
-             it=='g'||it=='k'||it=='h'||
-             it=='l'||it=='m'||it=='n'||
-             it=='q'||it=='s'||it=='d'||
-             it=='t'||it=='w'||it=='y'||
-             it=='\''||it=='-'||it==' '||
-             it==','||it=='.'||it=='!'||
-             it=='?'||it=='['||it=='];'||
-             it==':'||it==';'||it=='~'||
-             it=='('||it==')'||it=='j'||
-             it=='\n'
-            )) {
-            returnValue += "data is invalid";
-        }
-
-        if (it == '\n') {
-            returnValue += "NEWLINE";
-        }
-
-        if (it == '.' || it == ':' || it == ';' || it == '?' || it == '/' || it == ' ' || it == ',' || it == '-') {
-            returnValue += it;
-        }
-
-        if (it == 'a') {
-            returnValue += syllabaryMap2.a;
-        } else if (it == 'e') {
-            returnValue += syllabaryMap2.e;
-        } else if (it == 'i') {
-            returnValue += syllabaryMap2.i;
-        } else if (it == 'o') {
-            returnValue += syllabaryMap2.o;
-        } else if (it == 'u') {
-            returnValue += syllabaryMap2.u;
-        } else if (it == 'v') {
-            returnValue += syllabaryMap2.v;
-        }
-
-        if (it == 'd') {
-            if (counter + 1 < datasize) {
-                //it++ this is the charater at 'it' plus 1
-                var itt = data.charAt(counter + 1);
-                if (itt == 'a') {
-                    returnValue += syllabaryMap2.da;
-                    counter++;
-                } else if (itt == 'e') {
-                    returnValue += syllabaryMap2.de;
-                    counter++;
-                } else if (itt == "i") {
-                    returnValue += syllabaryMap2.di;
-                    counter++;
-                } else if (itt == "o") {
-                    returnValue += syllabaryMap2.do;
-                    counter++;
-                } else if (itt == "u") {
-                    returnValue += syllabaryMap2.du;
-                    counter++;
-                } else if (itt == "v") {
-                    returnValue += syllabaryMap2.dv;
-                    counter++;
-                }  else if (itt == "l") {
-                    if (counter + 2 < datasize) {
-                        var ittt = data.charAt(counter + 2);
-                        if (ittt == 'a') {
-                            returnValue += syllabaryMap2.dla;
-                            counter += 2;
-                        }
-                    } else {
-                        returnValue += "not a valid letter";
-                    }
-                } else {
-                    returnValue += "not a valid letter";
-                }
-            } else {
-                returnValue += "not a valid letter";
-            }
-        }
-
-        if (it == 'g') {
-            if (counter + 1 < datasize) {
-                //it++ this is the charater at 'it' plus 1
-                var itt = data.charAt(counter + 1);
-                if (itt == 'a') {
-                    returnValue += syllabaryMap2.ga;
-                    counter++;
-                } else if (itt == 'e') {
-                    returnValue += syllabaryMap2.ge;
-                    counter++;
-                } else if (itt == "i") {
-                    returnValue += syllabaryMap2.gi;
-                    counter++;
-                } else if (itt == "o") {
-                    returnValue += syllabaryMap2.go;
-                    counter++;
-                } else if (itt == "u") {
-                    returnValue += syllabaryMap2.gu;
-                    counter++;
-                } else if (itt == "v") {
-                    returnValue += syllabaryMap2.gv;
-                    counter++;
-                } else if (itt == "w") {
-                    if (counter + 2 < datasize) {
-                        var ittt = data.charAt(counter + 2);
-                        if (ittt == 'a') {
-                            returnValue += syllabaryMap2.qua;
-                            counter += 3;
-                        } else if (ittt == 'e') {
-                            returnValue += syllabaryMap2.que;
-                            counter += 3;
-                        } else if (ittt == 'i') {
-                            returnValue += syllabaryMap2.qui;
-                            counter += 3;
-                        } else if (ittt == 'o') {
-                            returnValue += syllabaryMap2.quo;
-                            counter += 3;
-                        } else if (ittt == 'u') {
-                            returnValue += syllabaryMap2.quu;
-                            counter += 3;
-                        } else if (ittt == 'v') {
-                            returnValue += syllabaryMap2.quv;
-                            counter += 3;
-                        } else {
-                            returnValue += "not a valid letter";
-                        }
-                    } else {
-                        returnValue += "not a valid letter";
-                    }
-                } else {
-                    returnValue += "not a valid letter";
-                }
-            } else {
-                returnValue += "not a valid letter";
-            }
-        }
-
-        if (it == 'h') {
-            if (counter + 1 < datasize) {
-                //it++ this is the charater at 'it' plus 1
-                var itt = data.charAt(counter + 1);
-                if (itt == 'a') {
-                    returnValue += syllabaryMap2.ha;
-                    counter++;
-                } else if (itt == 'e') {
-                    returnValue += syllabaryMap2.he;
-                    counter++;
-                } else if (itt == "i") {
-                    returnValue += syllabaryMap2.hi;
-                    counter++;
-                } else if (itt == "o") {
-                    returnValue += syllabaryMap2.ho;
-                    counter++;
-                } else if (itt == "u") {
-                    returnValue += syllabaryMap2.hu;
-                    counter++;
-                } else if (itt == "v") {
-                    returnValue += syllabaryMap2.hv;
-                    counter++;
-                } else if (itt == "n") {
-                    var ittt = data.charAt(counter + 2);
-                    if (ittt == 'a') {
-                        returnValue += syllabaryMap2.hna;
-                        counter += 2;
-                    }
-                } else {
-                    returnValue += "not a valid letter";
-                }
-            } else {
-                returnValue += "not a valid letter";
-            }
-        }
-
-        if (it == 'k') {
-            if (counter + 1 < datasize) {
-                //it++ this is the charater at 'it' plus 1
-                var itt = data.charAt(counter + 1);
-                if (itt == 'a') {
-                    returnValue += syllabaryMap2.ka;
-                    counter++;
-                } else {
-                    //should this really be 'ga' or return not a valid letter?
-                    returnValue += "not a valid letter";
-                }
-            } else {
-                returnValue += "not a valid letter";
-            }
-        }
-
-        if (it == 'l') {
-            if (counter + 1 < datasize) {
-                //it++ this is the charater at 'it' plus 1
-                var itt = data.charAt(counter + 1);
-                if (itt == 'a') {
-                    returnValue += syllabaryMap2.la;
-                    counter++;
-                } else if (itt == 'e') {
-                    returnValue += syllabaryMap2.le;
-                    counter++;
-                } else if (itt == "i") {
-                    returnValue += syllabaryMap2.li;
-                    counter++;
-                } else if (itt == "o") {
-                    returnValue += syllabaryMap2.lo;
-                    counter++;
-                } else if (itt == "u") {
-                    returnValue += syllabaryMap2.lu;
-                    counter++;
-                } else if (itt == "v") {
-                    returnValue += syllabaryMap2.lv;
-                    counter++;
-                } else {
-                    returnValue += "not a valid letter";
-                }
-            } else {
-                returnValue += "not a valid letter";
-            }
-        }
-
-        if (it == 'm') {
-            if (counter + 1 < datasize) {
-                //it++ this is the charater at 'it' plus 1
-                var itt = data.charAt(counter + 1);
-                if (itt == 'a') {
-                    returnValue += syllabaryMap2.ma;
-                    counter++;
-                } else if (itt == 'e') {
-                    returnValue += syllabaryMap2.me;
-                    counter++;
-                } else if (itt == "i") {
-                    returnValue += syllabaryMap2.mi;
-                    counter++;
-                } else if (itt == "o") {
-                    returnValue += syllabaryMap2.mo;
-                    counter++;
-                } else if (itt == "u") {
-                    returnValue += syllabaryMap2.mu;
-                    counter++;
-                } else {
-                    returnValue += "not a valid letter";
-                }
-            } else {
-                returnValue += "not a valid letter";
-            }
-        }
-
-        if (it == 'n') {
-            if (counter + 1 < datasize) {
-                //it++ this is the charater at 'it' plus 1
-                var itt = data.charAt(counter + 1);
-                if (itt == 'a') {
-                    if (counter + 2 < datasize) {
-                        var ittt = data.charAt(counter + 2);
-                        if (ittt == 'h') {
-                            returnValue += syllabaryMap2.nah;
-                            counter += 2;
-                        } else {
-                            returnValue += syllabaryMap2.na;
-                            counter++;
-                        }
-                    } else {
-                        returnValue += syllabaryMap2.na;
-                        counter++;
-                    }
-                } else if (itt == 'e') {
-                    returnValue += syllabaryMap2.ne;
-                    counter++;
-                } else if (itt == "i") {
-                    returnValue += syllabaryMap2.ni;
-                    counter++;
-                } else if (itt == "o") {
-                    returnValue += syllabaryMap2.no;
-                    counter++;
-                } else if (itt == "u") {
-                    returnValue += syllabaryMap2.nu;
-                    counter++;
-                } else if (itt == "v") {
-                    returnValue += syllabaryMap2.nv;
-                    counter++;
-                } else {
-                    returnValue += "not a valid letter";
-                }
-            } else {
-                returnValue += "not a valid letter";
-            }
-        }
-
-        if (it == 'q') {
-            if (counter + 1 < datasize) {
-                //it++ this is the charater at 'it' plus 1
-                var itt = data.charAt(counter + 1);
-                if (itt == 'u') {
-                    var ittt = data.charAt(counter + 2);
-
-                    if (ittt == 'a') {
-                        returnValue += syllabaryMap2.qua;
-                        counter += 2;
-                    } else if (ittt == 'e') {
-                        returnValue += syllabaryMap2.que;
-                        counter += 2;
-                    } else if (ittt == "i") {
-                        returnValue += syllabaryMap2.qui;
-                        counter += 2;
-                    } else if (ittt == "o") {
-                        returnValue += syllabaryMap2.quo;
-                        counter += 2;
-                    } else if (ittt == "u") {
-                        returnValue += syllabaryMap2.quu;
-                        counter += 2;
-                    } else if (ittt == "v") {
-                        returnValue += syllabaryMap2.quv;
-                        counter += 2;
-                    } else {
-                        returnValue += "not a valid letter";
-                    }
-                }
-            } else {
-                returnValue += "not a valid letter";
-            }
-        }
-
-        if (it == 's') {
-            if (counter + 1 < datasize) {
-                //it++ this is the charater at 'it' plus 1
-                var itt = data.charAt(counter + 1);
-                if (itt == 'a') {
-                    returnValue += syllabaryMap2.sa;
-                    counter++;
-                } else if (itt == 'e') {
-                    returnValue += syllabaryMap2.se;
-                    counter++;
-                } else if (itt == "i") {
-                    returnValue += syllabaryMap2.si;
-                    counter++;
-                } else if (itt == "o") {
-                    returnValue += syllabaryMap2.so;
-                    counter++;
-                } else if (itt == "u") {
-                    returnValue += syllabaryMap2.su;
-                    counter++;
-                } else if (itt == "v") {
-                    returnValue += syllabaryMap2.sv;
-                    counter++;
-                } else {
-                    // returnValue += "not a valid letter";
-                    //TODO: make sure it's right-- extensive testing
-                    returnValue += syllabaryMap2.s;
-                }
-            } else {
-                returnValue += syllabaryMap2.s;
-                // returnValue += "not a valid letter";
-            }
-        }
-
-        if (it == 't') {
-            if (counter + 1 < datasize) {
-                //it++ this is the charater at 'it' plus 1
-                var itt = data.charAt(counter + 1);
-                if (itt == 'a') {
-                    returnValue += syllabaryMap2.ta;
-                    counter++;
-                } else if (itt == 'e') {
-                    returnValue += syllabaryMap2.te;
-                    counter++;
-                } else if (itt == "i") {
-                    returnValue += syllabaryMap2.ti;
-                    counter++;
-                } else if (itt == "o") {
-                    returnValue += syllabaryMap2.to;
-                    counter++;
-                } else if (itt == "u") {
-                    returnValue += syllabaryMap2.tu;
-                    counter++;
-                } else if (itt == "v") {
-                    returnValue += syllabaryMap2.tv;
-                    counter++;
-                } else if (itt == "l") {
-                    if (counter + 2 < datasize) {
-                        var ittt = data.charAt(counter + 2);
-                        if (ittt == 'a') {
-                            returnValue += syllabaryMap2.tla;
-                            counter += 2;
-                        } else if (ittt == 'e') {
-                            returnValue += syllabaryMap2.tle;
-                            counter += 2;
-                        } else if (ittt == "i") {
-                            returnValue += syllabaryMap2.tli;
-                            counter += 2;
-                        } else if (ittt == "o") {
-                            returnValue += syllabaryMap2.tlo;
-                            counter += 2;
-                        } else if (ittt == "u") {
-                            returnValue += syllabaryMap2.tlu;
-                            counter += 2;
-                        } else if (ittt == "v") {
-                            returnValue += syllabaryMap2.tlv;
-                            counter += 2;
-                        } else {
-                            returnValue += "not a valid letter";
-                        }
-                    } else {
-                        returnValue += "not a valid letter";
-                    }
-                } else if (itt == "s") {
-                    if (counter + 2 < datasize) {
-                        var ittt = data.charAt(counter + 2);
-                        if (ittt == 'a') {
-                            returnValue += syllabaryMap2.tsa;
-                            counter += 2;
-                        } else if (ittt == 'e') {
-                            returnValue += syllabaryMap2.tse;
-                            counter += 2;
-                        } else if (ittt == "i") {
-                            returnValue += syllabaryMap2.tsi;
-                            counter += 2;
-                        } else if (ittt == "o") {
-                            returnValue += syllabaryMap2.tso;
-                            counter += 2;
-                        } else if (ittt == "u") {
-                            returnValue += syllabaryMap2.tsu;
-                            counter += 2;
-                        } else if (ittt == "v") {
-                            returnValue += syllabaryMap2.tsv;
-                            counter += 2;
-                        } else {
-                            returnValue += "not a valid letter";
-                        }
-                    } else {
-                        returnValue += "not a valid letter";
-                    }
-                } else {
-                    returnValue += "not a valid letter";
-                }
-            } else {
-                returnValue += "not a valid letter";
-            }
-        }
-
-        if (it == 'w') {
-            if (counter + 1 < datasize) {
-                //it++ this is the charater at 'it' plus 1
-                var itt = data.charAt(counter + 1);
-                if (itt == 'a') {
-                    returnValue += syllabaryMap2.wa;
-                    counter++;
-                } else if (itt == 'e') {
-                    returnValue += syllabaryMap2.we;
-                    counter++;
-                } else if (itt == "i") {
-                    returnValue += syllabaryMap2.wi;
-                    counter++;
-                } else if (itt == "o") {
-                    returnValue += syllabaryMap2.wo;
-                    counter++;
-                } else if (itt == "u") {
-                    returnValue += syllabaryMap2.wu;
-                    counter++;
-                } else if (itt == "v") {
-                    returnValue += syllabaryMap2.wv;
-                    counter++;
-                } else {
-                    returnValue += "not a valid letter";
-                }
-            } else {
-                returnValue += "not a valid letter";
-            }
-        }
-
-        if (it == 'y') {
-            if (counter + 1 < datasize) {
-                //it++ this is the charater at 'it' plus 1
-                var itt = data.charAt(counter + 1);
-                if (itt == 'a') {
-                    returnValue += syllabaryMap2.ya;
-                    counter++;
-                } else if (itt == 'e') {
-                    returnValue += syllabaryMap2.ye;
-                    counter++;
-                } else if (itt == "i") {
-                    returnValue += syllabaryMap2.yi;
-                    counter++;
-                } else if (itt == "o") {
-                    returnValue += syllabaryMap2.yo;
-                    counter++;
-                } else if (itt == "u") {
-                    returnValue += syllabaryMap2.yu;
-                    counter++;
-                } else if (itt == "v") {
-                    returnValue += syllabaryMap2.yv;
-                    counter++;
-                } else {
-                    returnValue += "not a valid letter";
-                }
-            } else {
-                returnValue += "not a valid letter";
-            }
+    for (var key in syllabaryMap2) {
+        if (syllabaryMap2.hasOwnProperty(key)) {
+            var re = new RegExp(key,"g");
+            data = data.replace(re, syllabaryMap2[key]);
         }
     }
 
-    returnValue = returnValue.replace(/NEWLINE/g, "\n");
+    for (var key in latinMap) {
+        if (latinMap.hasOwnProperty(key)) {
+            var re = new RegExp(key,"g");
+            data = data.replace(re, "##");
+        }
+    }
 
-    return returnValue;
+    return data;
 }
