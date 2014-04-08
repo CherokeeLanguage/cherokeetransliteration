@@ -56,7 +56,7 @@ class SyllabaryTest extends GroovyTestCase {
         assertTrue('ᏓᏩᏙᎠ' == su.parseHyphen('da-wa-to-a'));
 
         assertTrue('ᏒᎦᏔ' == su.tsalagiToSyllabary('svgata'))
-        assertTrue('Ꮢ##Ꮤ' == su.tsalagiToSyllabary('svkta'))
+        assertTrue('Ꮢnot a valid letterᏔ' == su.tsalagiToSyllabary('svkta'))
         assertTrue('ᏒᏍᏒᎪ' == su.tsalagiToSyllabary('svssvgo'))
     }
 
@@ -81,36 +81,36 @@ class SyllabaryTest extends GroovyTestCase {
 
     }
 
-//    public void testBadInput() {
-//        def su = new SyllabaryUtil();
-//
-////        println su.tsalagiToSyllabary("%")
-//
-//        assertTrue('not a valid letter' == su.tsalagiToSyllabary('k'))
-//        assertTrue('not a valid letter' == su.tsalagiToSyllabary('l'))
-//        assertTrue("not a valid letter" == su.tsalagiToSyllabary('m'))
-//        assertTrue("not a valid letter" == su.tsalagiToSyllabary('n'))
-//        assertTrue("not a valid letter" == su.tsalagiToSyllabary('q'))
-//        assertTrue("not a valid letter" == su.tsalagiToSyllabary('t'))
-//        assertTrue("not a valid letter" == su.tsalagiToSyllabary("w"))
-//
-//
-//        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('ly'))
-//        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('my'))
-//        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('ny'))
-//        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('qy'))
-//        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('tl'))
-//        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary("ty"))
-//        assertTrue("not a valid letterᏍ" == su.tsalagiToSyllabary("ts"))
-//        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary("wy"))
-//        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary("yy"))
-//
-//
-//        assertTrue("not a valid letterᏍnot a valid letter" == su.tsalagiToSyllabary("tsy"))
-//
-//        assertTrue("not a valid letternot a valid letternot a valid letter" == su.tsalagiToSyllabary('tly'))
-//        assertTrue("not a valid letterᎤnot a valid letter" == su.tsalagiToSyllabary('quy'))
-//    }
+    public void testBadInput() {
+        def su = new SyllabaryUtil();
+
+//        println su.tsalagiToSyllabary("%")
+
+        assertTrue('not a valid letter' == su.tsalagiToSyllabary('k'))
+        assertTrue('not a valid letter' == su.tsalagiToSyllabary('l'))
+        assertTrue("not a valid letter" == su.tsalagiToSyllabary('m'))
+        assertTrue("not a valid letter" == su.tsalagiToSyllabary('n'))
+        assertTrue("not a valid letter" == su.tsalagiToSyllabary('q'))
+        assertTrue("not a valid letter" == su.tsalagiToSyllabary('t'))
+        assertTrue("not a valid letter" == su.tsalagiToSyllabary("w"))
+
+
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('ly'))
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('my'))
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('ny'))
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('qy'))
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary('tl'))
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary("ty"))
+        assertTrue("not a valid letterᏍ" == su.tsalagiToSyllabary("ts"))
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary("wy"))
+        assertTrue("not a valid letternot a valid letter" == su.tsalagiToSyllabary("yy"))
+
+
+        assertTrue("not a valid letterᏍnot a valid letter" == su.tsalagiToSyllabary("tsy"))
+
+        assertTrue("not a valid letternot a valid letternot a valid letter" == su.tsalagiToSyllabary('tly'))
+        assertTrue("not a valid letterᎤnot a valid letter" == su.tsalagiToSyllabary('quy'))
+    }
 
     public void testReverseReplace() {
         def su = new SyllabaryUtil();
@@ -153,44 +153,13 @@ class SyllabaryTest extends GroovyTestCase {
         assertTrue("ᏰᎦᏟ" == su.tsalagiToSyllabary("hyehgahli"));
         assertTrue("ᎢᎦᎷᎦ" == su.tsalagiToSyllabary("igaluhga"));
         assertTrue("ᏗᏰᎦᏟ" == su.tsalagiToSyllabary("dihyehgahli"));
+        println su.tsalagiToSyllabary("vuluhjvi,uluhjvi")
         assertTrue("ᎥᎤᎷᏨᎢ,ᎤᎷᏨᎢ" == su.tsalagiToSyllabary("vuluhjvi,uluhjvi"));
 
+        assertTrue("ᎯᎩᏍᎪ ᎢᎳᏏᏗ ᎢᎦᏅᎯᏓ ᏍᏕᏱᏓ ᎤᏮᏔᏅ ᏩᎦ ᎠᎩᎾ ᎠᏍᎳᏗᏍᎬᎢ." == su.tsalagiToSyllabary("Hiksgo ilasihdi iganvhida sdeyida uwhtanv wahga agina asladisgvi."));
         assertTrue("ᎯᎳ ᎢᎩᏓ ᎠᎵᏍᏇᏚᏬ ᎭᎵᏍᏇᏚᎲᏍᎩ?" == su.tsalagiToSyllabary("Hila ikida alisgwetuwo halisgwetuhvsgi?"));
         assertTrue("ᏍᎪᎯ ᎢᎳᏏᏗ ᏂᎦᏅᎭ" == su.tsalagiToSyllabary("Sgohi ilasihdi niganvha"));
         assertTrue("ᎢᎸᎯᏳᎢᏍ ᎢᎾᏓ ᏣᎦᏟᏨᎢ" == su.tsalagiToSyllabary("Ilvhiyuis inada tsagahlijvi"));
-    }
-
-    public void testNewStuff() {
-        def str = "adelohi"
-        def su = new SyllabaryUtil()
-        su.syllabaryMap2.each {
-            str = str.replace(it.key, it.value)
-        }
-
-        su.syllabaryMap.each {
-            str = str.replace(it.key, it.value)
-        }
-
-        assert str == "adelohi"
-
-        def tst = "Ahani <u>dajidi</u> hia suhdi."
-        def tstFixed = "ahani <u>datsidi</u> hia sudi."
-        def syltest = "ᎠᎭᏂ <u>ᏓᏥᏗ</u> ᎯᎠ ᏑᏗ."
-
-        String tmpTest = su.replace(tst.toLowerCase()).replace("<u>", "##").replace("</u>", "###");
-        String tmpSyllTest = syltest;
-
-        su.syllabaryMap2.each {
-            tmpTest = tmpTest.replace(it.key, it.value)
-        }
-
-        tmpTest = tmpTest.replace("###", "</u>").replace("##", "<u>")
-        assert tmpTest == syltest;
-
-        su.syllabaryMap.each {
-            tmpSyllTest = tmpSyllTest.replace(it.key, it.value)
-        }
-
-        assert tmpSyllTest == tstFixed
+        assertTrue("ᎢᎸᏍᎩ ᎢᏳᏟᎶᏓ ᎡᎳᏗ ᎤᏂᎩᏒᎢ ᎩᎳ ᎤᏓᏣᏁᎸᎢ" == su.tsalagiToSyllabary("Ilvsgi iyuhliloda eladi uhnigisvi kila udajanelvi"));
     }
 }
