@@ -12,7 +12,7 @@ apply plugin: 'checkstyle'
 apply plugin: 'codenarc'
 
 group = 'com.cobradoc'
-version = '0.1.0'
+version = '0.1.2'
 
 repositories {
     maven {url 'file:///' + new File(System.getProperty('user.home'), '/.m2/repository').absolutePath}
@@ -23,9 +23,9 @@ repositories {
 dependencies {
 
     compile 'junit:junit:4.11'
-    compile 'org.codehaus.groovy:groovy-all:2.1.5'
+    compile 'org.codehaus.groovy:groovy-all:2.4.0'
 //    localGroovy();
-    groovy localGroovy()
+//    groovy localGroovy()
     testCompile 'junit:junit:4.10'
 }
 

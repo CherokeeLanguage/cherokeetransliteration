@@ -162,4 +162,20 @@ class SyllabaryTest extends GroovyTestCase {
         assertTrue("ᎢᎸᎯᏳᎢᏍ ᎢᎾᏓ ᏣᎦᏟᏨᎢ" == su.tsalagiToSyllabary("Ilvhiyuis inada tsagahlijvi"));
         assertTrue("ᎢᎸᏍᎩ ᎢᏳᏟᎶᏓ ᎡᎳᏗ ᎤᏂᎩᏒᎢ ᎩᎳ ᎤᏓᏣᏁᎸᎢ" == su.tsalagiToSyllabary("Ilvsgi iyuhliloda eladi uhnigisvi kila udajanelvi"));
     }
+
+
+    public void testSyllabaryParse() {
+        def su = new SyllabaryUtil();
+        def value = "ᎠᏕᎳᎰᎯᏍᏗ (w) ᎬᏕᎳᏦᎯᏍᏙᏗ  (e)"
+        def translit = su.parseSyllabaryWithPunctuationAndLatin(value);
+        println translit
+
+        value = "ᎠᏕᎳᎰᎯᏍᏗ/ᎬᏕᎳᏦᎯᏍᏙᏗ"
+        translit = su.parseSyllabaryWithPunctuationAndLatin(value)
+        println translit
+
+        value = "ᎠᏕᎳᎰᎯᏍᏗ,ᎬᏕᎳᏦᎯᏍᏙᏗ"
+        translit = su.parseSyllabaryWithPunctuationAndLatin(value)
+        println translit
+    }
 }

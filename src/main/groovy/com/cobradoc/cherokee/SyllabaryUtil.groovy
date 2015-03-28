@@ -204,6 +204,38 @@ public class SyllabaryUtil {
         return returnValue;
     }
 
+    //some entries in the dictionary contain slashes, commas, spaces, and (w) or (e)
+    // these entries need to be processed as is to give an exact transliterated value
+    def parseSyllabaryWithPunctuationAndLatin(value) {
+        def returnValue = '';
+        for (def i = 0; i < value.length(); i++) {
+            def val = value.charAt(i);
+            def tmp = syllabaryMap['' + val];
+            if (tmp == null) {
+                if (val=='a'||val=='e'||val=='i'||
+                    val=='o'||val=='u'||val=='v'||
+                    val=='g'||val=='k'||val=='h'||
+                    val=='l'||val=='m'||val=='n'||
+                    val=='q'||val=='s'||val=='d'||
+                    val=='t'||val=='w'||val=='y'||
+                    val=='\''||val=='-'||val==' '||
+                    val==','||val=='.'||val=='!'||
+                    val=='?'||val=='['||val=='];'||
+                    val==':'||val==';'||val=='~'||
+                    val=='('||val==')'||val==" " ||
+                    val=="/") {
+                    tmp = val;
+                }
+            }
+
+            returnValue += tmp
+        }
+
+        returnValue = replace(returnValue);
+
+        return returnValue;
+    }
+
     def parseSyllabary(value) {
         def returnValue = '';
         for (def i = 0; i < value.length(); i++) {
