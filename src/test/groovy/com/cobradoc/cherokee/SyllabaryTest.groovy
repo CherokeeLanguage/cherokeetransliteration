@@ -178,4 +178,38 @@ class SyllabaryTest extends GroovyTestCase {
         translit = su.parseSyllabaryWithPunctuationAndLatin(value)
         println translit
     }
+
+    public void testTsJ() {
+        def su = new SyllabaryUtil()
+        def value = "ᏥᏍᏆ"
+        def translit = su.tsalagiToSyllabary("tsisqua")
+        println translit
+
+        translit = su.tsalagiToSyllabary("tsisgwa")
+        println translit
+
+        translit = su.tsalagiToSyllabary("jisqua")
+        println translit
+
+        translit = su.tsalagiToSyllabary("jisgwa")
+        println translit
+
+        translit = su.tsalagiToSyllabary("Tsisqua")
+        println translit
+
+        translit = su.tsalagiToSyllabary("Tsisgwa")
+        println translit
+
+        translit = su.tsalagiToSyllabary("Jisqua")
+        println translit
+
+        translit = su.tsalagiToSyllabary("Jisgwa")
+        println translit
+
+        def replacedSearchTerm = su.replace("Jisgwa".toLowerCase());
+        println replacedSearchTerm
+
+        replacedSearchTerm = su.replace("jisqua");
+        println replacedSearchTerm
+    }
 }
