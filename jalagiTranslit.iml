@@ -14,59 +14,6 @@
     </content>
     <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="TEST" name="htmlunit-2.12" level="project" />
-    <orderEntry type="library" scope="TEST" name="htmlunit-core-js-2.12" level="project" />
-    <orderEntry type="library" scope="TEST" name="serializer-2.7.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="cssparser-0.9.9" level="project" />
-    <orderEntry type="library" scope="TEST" name="httpmime-4.2.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="regexp-1.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="json-20080701" level="project" />
-    <orderEntry type="library" scope="TEST" name="selenium-remote-driver-2.33.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="selenium-api-2.33.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="mockito-all-1.9.5" level="project" />
-    <orderEntry type="library" scope="TEST" name="jetty-http-8.1.9.v20130131" level="project" />
-    <orderEntry type="library" scope="TEST" name="selenium-htmlunit-driver-2.33.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="selenium-firefox-driver-2.33.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="commons-lang3-3.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="cglib-nodep-2.1_3" level="project" />
-    <orderEntry type="library" scope="TEST" name="selenium-java-2.33.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="nekohtml-1.9.18" level="project" />
-    <orderEntry type="library" scope="TEST" name="slf4j-api-1.6.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="jwebunit-core-3.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="selenium-support-2.33.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="commons-io-2.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="commons-codec-1.7" level="project" />
-    <orderEntry type="library" scope="TEST" name="selenium-android-driver-2.33.0" level="project" />
-    <orderEntry type="library" exported="" name="hamcrest-core-1.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="httpcore-4.2.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="jwebunit-htmlunit-plugin-3.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="platform-3.4.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="jetty-io-8.1.9.v20130131" level="project" />
-    <orderEntry type="library" scope="TEST" name="commons-collections-3.2.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="commons-exec-1.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="selenium-iphone-driver-2.33.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="webbit-0.4.14" level="project" />
-    <orderEntry type="library" exported="" name="junit-4.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="selenium-ie-driver-2.33.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="commons-logging-1.1.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="netty-3.5.2.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="jetty-util-8.1.9.v20130131" level="project" />
-    <orderEntry type="library" scope="TEST" name="httpclient-4.2.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="junit-dep-4.10" level="project" />
-    <orderEntry type="library" scope="TEST" name="xml-apis-1.4.01" level="project" />
-    <orderEntry type="library" scope="TEST" name="xercesImpl-2.10.0" level="project" />
-    <orderEntry type="library" exported="" name="groovy-all-2.1.5" level="project" />
-    <orderEntry type="library" scope="TEST" name="guava-14.0" level="project" />
-    <orderEntry type="library" exported="" name="groovy-all-1.8.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="jetty-websocket-8.1.9.v20130131" level="project" />
-    <orderEntry type="library" scope="TEST" name="commons-lang-2.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="jcl-over-slf4j-1.6.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="servlet-api-2.5" level="project" />
-    <orderEntry type="library" scope="TEST" name="selenium-chrome-driver-2.33.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="jna-3.4.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="selenium-safari-driver-2.33.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="sac-1.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="xalan-2.7.1" level="project" />
     <orderEntry type="library" name="groovy-2.4.0" level="application" />
   </component>
 </module>
