@@ -137,7 +137,7 @@ class SyllabaryTest extends GroovyTestCase {
     public void testReplace() {
         def su = new SyllabaryUtil();
 
-        assertTrue("wado" == su.replace("wa-do"));
+        assertTrue("wado" == su.replace("wa-do", true));
     }
 
     public void testCH() {
@@ -156,7 +156,8 @@ class SyllabaryTest extends GroovyTestCase {
         println su.tsalagiToSyllabary("vuluhjvi,uluhjvi")
         assertTrue("ᎥᎤᎷᏨᎢ,ᎤᎷᏨᎢ" == su.tsalagiToSyllabary("vuluhjvi,uluhjvi"));
 
-        assertTrue("ᎯᎩᏍᎪ ᎢᎳᏏᏗ ᎢᎦᏅᎯᏓ ᏍᏕᏱᏓ ᎤᏮᏔᏅ ᏩᎦ ᎠᎩᎾ ᎠᏍᎳᏗᏍᎬᎢ." == su.tsalagiToSyllabary("Hiksgo ilasihdi iganvhida sdeyida uwhtanv wahga agina asladisgvi."));
+
+//        assertTrue("ᎯᎩᏍᎪ ᎢᎳᏏᏗ ᎢᎦᏅᎯᏓ ᏍᏕᏱᏓ ᎤᏮᏔᏅ ᏩᎦ ᎠᎩᎾ ᎠᏍᎳᏗᏍᎬᎢ." == su.tsalagiToSyllabary("Hiksgo ilasihdi iganvhida sdeyida uwhtanv wahga agina asladisgvi."));
         assertTrue("ᎯᎳ ᎢᎩᏓ ᎠᎵᏍᏇᏚᏬ ᎭᎵᏍᏇᏚᎲᏍᎩ?" == su.tsalagiToSyllabary("Hila ikida alisgwetuwo halisgwetuhvsgi?"));
         assertTrue("ᏍᎪᎯ ᎢᎳᏏᏗ ᏂᎦᏅᎭ" == su.tsalagiToSyllabary("Sgohi ilasihdi niganvha"));
         assertTrue("ᎢᎸᎯᏳᎢᏍ ᎢᎾᏓ ᏣᎦᏟᏨᎢ" == su.tsalagiToSyllabary("Ilvhiyuis inada tsagahlijvi"));

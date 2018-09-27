@@ -223,7 +223,7 @@ public class SyllabaryUtil {
                     val=='?'||val=='['||val=='];'||
                     val==':'||val==';'||val=='~'||
                     val=='('||val==')'||val==" " ||
-                    val=="/") {
+                    val=="/" || val == "1" || val == "2" || val == "3" || val == "4" || val == "5" || val == "6" || val == "7" || val == "8" || val =="9" || val == "0" || "-") {
                     tmp = val;
                 }
             }
@@ -231,7 +231,7 @@ public class SyllabaryUtil {
             returnValue += tmp
         }
 
-        returnValue = replace(returnValue);
+        returnValue = replace(returnValue, true);
 
         return returnValue;
     }
@@ -278,6 +278,10 @@ public class SyllabaryUtil {
     }
 
     def replace(data) {
+        return replace(data, true);
+    }
+
+    def replace(data, replaceHyphens) {
         data = data.replace('gwa', 'qua');
         data = data.replace('gwe', 'que');
         data = data.replace('gwi', 'qui');
@@ -333,18 +337,25 @@ public class SyllabaryUtil {
 
 //        data = data.replace('to', 'do');
 
-        while (data.indexOf("-") != -1) {
-            data = data.replace('-', '');
+        if (replaceHyphens) {
+            while (data.indexOf("-") != -1) {
+                data = data.replace('-', '');
+            }
         }
 
         return data;
     }
 
     def tsalagiToSyllabary(String data) {
+        return tsalagiToSyllabary(data, true);
+    }
+
+    //sometimes we don't want all hyphens replaced such as when those are delineating the beginning of lists
+    def tsalagiToSyllabary(String data, boolean replaceHyphens) {
         data = data.toLowerCase();
         def returnValue = [];
 
-        data = replace(data);
+        data = replace(data, replaceHyphens);
 //        data = reverseReplace(data);
 
         def datasize = data.length();
@@ -366,12 +377,12 @@ public class SyllabaryUtil {
                  it==','||it=='.'||it=='!'||
                  it=='?'||it=='['||it=='];'||
                  it==':'||it==';'||it=='~'||
-                 it=='('||it==')'/*||it=='j'*/
+                 it=='(' || data == '\"' ||it==')'|| it == "1" || it == "2" || it == "3" || it == "4" || it == "5" || it == "6" || it == "7" || it == "8" || it =="9" || it == "0" || it == "-"/*||it=='j'*/
                 )) {
                 returnValue += "data is invalid";
             }
 
-            if (it == '.' || it == ':' || it == ';' || it == '?' || it == '/' || it == ' ' || it == ',' || it == '-') {
+            if (it == '.' || data == '\"' || it == ':' || it == ';' || it == '?' || it == '/' || it == ' ' || it == ',' || it == '-' || it == "1" || it == "2" || it == "3" || it == "4" || it == "5" || it == "6" || it == "7" || it == "8" || it =="9" || it == "0") {
                 returnValue += it;
             }
 
