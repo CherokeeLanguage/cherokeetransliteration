@@ -220,4 +220,44 @@ class SyllabaryTest extends GroovyTestCase {
         def translit = su.mixedTransliteration(value)
         println translit
     }
+
+    public void testNewLine() {
+        def text = """Sogwo gola usvhi atsehi etsodv, anigayotli unenai ani<e>Ridge 
+anisgaya, Ugidatlinvya geli unadadasgisane atsvsdv gasgilv,
+unega goweli unisae, udelada unisdayide kanohedv datsohisdv,
+uninadinvsele amayeli nigada tsalagiyi ayeli gado, anelisge osda
+adalenisgv, yuninohelvna, getsikahiyvsdi, atsehi yuwiyasdi nahna
+gesv. Unadadasgv unisdayidona goweli, sogwo nuwese, Gelisgvno
+igvsa igadahisdodi idisdayidv. Udohiyuhe nuwesv.<br/>
+Kanohedv datsohisdv gowelanv, adanetlasge unenai aniyvwiya
+unadaniyasdigwo, tsunisgwanigododigwo duniniyvhv - gado
+nole daninigilv nole anihutsa duninasav - amayeli anehi
+iyanalisdisgi. Osiyu nigesvna. Ayano gesv osigwo agiyelvhv, Geli
+nole U gidatlinvya dvnadaniyi <e>Cranshaw, nole nav edohv Geli duga
+aginehv, yeligwo gohosdi ulisdodi,, udanvdo dvwanvhisani.
+Unega didanelv wulutsa kanohedv datsohisdv, ulisgasedane
+tsegisini, gesdi gilo asuyagidv yigi udvne. Nigada aniyvwiya
+unenvsdi udulisge, gesdi gohosdi yelisge iyunena gesv ale
+iyuninega gesv, uwowelagise sginana adanetlv .<br/>
+Agayvli utsetsisdi usgwadone tsanela tsudetiyvda, ulenvhe
+uwasa ehv <e>Nashville doye, osda uyelvhe uwoyeni gvti yuselidola
+nigvnadv gado, nasgwo ulvnidisgv. <e>Van <e>Buren usdawadvse
+tsegisini ayelisv aniyvwiya tsunalasidodi, nasgiya adawosgi
+tsuniyisgo ganahugisgv.<br/>
+Udetiyvsadisv yanilugvna aniyosgi, ani<e>Ridge unadadasgv
+unalenvhe danihiyasgv tsunanesgedv disdosdi, digasosdodi
+tsiyu, dunadananv nole ditsoosdodi, wudeligv itsa anege, gayotli
+dunatinvse anihutsa duninasav, wunvgvdv ohani unenvsdi. Igada
+unega uninegali unenai aniyvwiya unadanvtele unatelagisdi
+anitsalagi, unadasuyodi aniyuwanega, aseno dudatsohisdv
+tsatsiya, daniniyisge tsunaligidv, asegwo nigav yvwiya giga
+uninehi, danigahiyvsge wudeligv itsa, tsudugodanedi iyusdi
+nigegvnehe.<br/>
+Gunadalegi nole anineli amo edohi tsiyu unanigese, utlisda
+nole gohosdi yinigalisdisgvna, <e>Boudinot nole awina <e>Ridge nole
+tsunadali ulihelisdi nunvnele anegv."""
+        def su = new SyllabaryUtil()
+        def translit = su.mixedTransliteration(text)
+        println translit
+    }
 }

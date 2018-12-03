@@ -349,7 +349,21 @@ public class SyllabaryUtil {
     def mixedTransliteration(String data) {
         def sb = new StringBuilder()
         def words = data.split(" ")
+        boolean hasCR = false;
+        def crIndex = -1;
         words.each {
+            if (it.contains("\n") || it.contains("\r")) {
+                hasCR = true;
+//                crIndex = it.indexOf("\n") != -1 ? it.indexOf("\n") : it.indexOf("\r")
+                it = it.replace("\n", "111").replace("\r", "222")
+            } else {
+                crIndex = -1
+            }
+
+            /*if (hasCR) {
+                it = it.replace("<br/>", "111")
+            }*/
+
             if (!it.startsWith("<e>") && !it.contains("<e>")) {
                 sb << tsalagiToSyllabary(it, false);
             } else {
@@ -376,9 +390,8 @@ public class SyllabaryUtil {
 
         sb << "\n"
 
-
         //remove all of the <e> tags to clean up the latin texts
-        sb = sb.replaceAll("<e>", "")
+        sb = sb.replaceAll("<e>", "").replaceAll("111", "\n").replaceAll("222", "\r");
 
         return sb
     }
@@ -414,7 +427,7 @@ public class SyllabaryUtil {
                  it==','||it=='.'||it=='!'||
                  it=='?'||it=='['||it=='];'||
                  it==':'||it==';'||it=='~'||
-                 it=='(' || data == '\"' ||it==')'|| it == "1" || it == "2" || it == "3" || it == "4" || it == "5" || it == "6" || it == "7" || it == "8" || it =="9" || it == "0" || it == "-"/*||it=='j'*/
+                 it=='(' || data == '\"' ||it==')'|| it == "1" || it == "2" || it == "3" || it == "4" || it == "5" || it == "6" || it == "7" || it == "8" || it =="9" || it == "0" || it == "-" /*||it=='j'*/
                 )) {
                 returnValue += "data is invalid";
             }

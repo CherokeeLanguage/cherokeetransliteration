@@ -2,7 +2,234 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="154e4d3e-e249-4d98-8bd4-52bd93a89790" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/jalagiTranslit/com/cobradoc/cherokee/SyllabaryUtil$_mixedTransliteration_closure1$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/jalagiTranslit/com/cobradoc/cherokee/SyllabaryUtil$_mixedTransliteration_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/jalagiTranslit/com/cobradoc/cherokee/SyllabaryUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/jalagiTranslit/com/cobradoc/cherokee/util/SyllabaryCreate$_formVoltron_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/jalagiTranslit/com/cobradoc/cherokee/util/SyllabaryCreate.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/ProcessText$_run_closure1$_closure2$_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/ProcessText$_run_closure1$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/ProcessText$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/ProcessText.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/SyllabaryTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/packageFilesForUpload.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/processOneFile$_run_closure1$_closure2$_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/processOneFile$_run_closure1$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/processOneFile$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/processOneFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/tsogadu nvdo_ tsigegvwovdisgei_20180702091621.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page10.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page100.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page100_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page10_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page11.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page11_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page12.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page12_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page13.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page13_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page14.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page14_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page15.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page15_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page16.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page16_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page17.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page17_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page18.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page18_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page19.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page19_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page1_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page20.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page20_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page21.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page21_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page22.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page22_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page23.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page23_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page24.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page24_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page25.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page25_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page26.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page26_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page27.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page27_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page28.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page28_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page29.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page29_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page2_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page30.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page30_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page31.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page31_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page32.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page32_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page33.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page33_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page34.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page34_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page35.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page35_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page36.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page36_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page37.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page37_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page38.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page38_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page39.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page39_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page3_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page40.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page40_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page41.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page41_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page42.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page42_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page43.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page43_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page44.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page44_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page45.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page45_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page46.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page46_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page47.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page47_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page48.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page48_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page49.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page49_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page4_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page50.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page50_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page51.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page51_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page52.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page52_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page53.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page53_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page54.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page54_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page55.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page55_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page56.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page56_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page57.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page57_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page58.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page58_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page59.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page59_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page5_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page60.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page60_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page61.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page61_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page62.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page62_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page63.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page63_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page64.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page64_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page65.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page65_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page66.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page66_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page67.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page67_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page68.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page68_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page69.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page69_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page6_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page7.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page70.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page70_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page71.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page71_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page72.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page72_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page73.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page73_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page74.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page74_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page75.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page75_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page76.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page76_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page77.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page77_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page78.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page78_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page79.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page79_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page7_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page8.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page80.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page80_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page81.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page81_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page82.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page82_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page83.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page83_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page84.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page84_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page85.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page85_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page86.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page86_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page87.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page87_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page88.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page88_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page89.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page89_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page8_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page9.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page90.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page90_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page91.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page91_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page92.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page92_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page93.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page93_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page94.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page94_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page95.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page95_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page96.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page96_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page97.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page97_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page98.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page98_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page99.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page99_latin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/jalagiTranslit/com/cobradoc/cherokee/files/page9_latin.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/groovy/main/com/cobradoc/cherokee/SyllabaryUtil$_mixedTransliteration_closure1$_closure2.class" afterPath="$PROJECT_DIR$/build/classes/groovy/main/com/cobradoc/cherokee/SyllabaryUtil$_mixedTransliteration_closure1$_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/groovy/main/com/cobradoc/cherokee/SyllabaryUtil$_mixedTransliteration_closure1.class" afterPath="$PROJECT_DIR$/build/classes/groovy/main/com/cobradoc/cherokee/SyllabaryUtil$_mixedTransliteration_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/groovy/main/com/cobradoc/cherokee/SyllabaryUtil.class" afterPath="$PROJECT_DIR$/build/classes/groovy/main/com/cobradoc/cherokee/SyllabaryUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/jalagiTranslit-0.1.3.jar" afterPath="$PROJECT_DIR$/build/libs/jalagiTranslit-0.1.3.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/SyllabaryTest.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/SyllabaryTest.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transliteration.iws" afterPath="$PROJECT_DIR$/transliteration.iws" />
     </list>
     <ignored path="transliteration.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,32 +290,42 @@
     <favorites_list name="transliteration" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SyllabaryUtil.groovy" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="SyllabaryUtil.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+            <state relative-caret-position="269">
+              <caret line="364" column="15" lean-forward="false" selection-start-line="362" selection-start-column="12" selection-end-line="364" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SyllabaryTest.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SyllabaryTest.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/SyllabaryTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3165">
-              <caret line="218" column="33" lean-forward="false" selection-start-line="218" selection-start-column="33" selection-end-line="218" selection-end-column="33" />
+            <state relative-caret-position="829">
+              <caret line="262" column="1" lean-forward="true" selection-start-line="262" selection-start-column="1" selection-end-line="262" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="page1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page29.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page29.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -101,6 +338,8 @@
       <find>&lt;e&gt;</find>
       <find>ani&lt;e&gt;</find>
       <find>tu</find>
+      <find>ani&lt;e</find>
+      <find>&lt;br/&gt;</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files</dir>
@@ -122,8 +361,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/SyllabaryTest.groovy" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/SyllabaryTest.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy" />
       </list>
     </option>
@@ -158,9 +397,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,6 +465,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,7 +510,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SyllabaryTest.testMixed">
+  <component name="RunManager" selected="JUnit.SyllabaryTest.testNewLine">
     <configuration name="SyllabaryTest.testMixed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -285,6 +524,31 @@
       <option name="PACKAGE_NAME" value="com.cobradoc.cherokee" />
       <option name="MAIN_CLASS_NAME" value="com.cobradoc.cherokee.SyllabaryTest" />
       <option name="METHOD_NAME" value="testMixed" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SyllabaryTest.testNewLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cobradoc.cherokee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jalagiTranslit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cobradoc.cherokee" />
+      <option name="MAIN_CLASS_NAME" value="com.cobradoc.cherokee.SyllabaryTest" />
+      <option name="METHOD_NAME" value="testNewLine" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -599,18 +863,20 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SyllabaryTest.testSyllabary" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SyllabaryTest.testSyllabaryParse" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.SyllabaryTest.testTsJ" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.SyllabaryTest.testMixed" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SyllabaryTest.testNewLine" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SyllabaryTest.testMixed" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SyllabaryTest.testTsJ" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SyllabaryTest.testSyllabaryParse" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SyllabaryTest.testSyllabary" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SyllabaryTest.testNewLine" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SyllabaryTest.testMixed" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SyllabaryTest.testTsJ" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SyllabaryTest.testSyllabaryParse" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SyllabaryTest.testSyllabary" />
       </list>
     </recent_temporary>
   </component>
@@ -642,26 +908,52 @@
       <workItem from="1440109438685" duration="42000" />
       <workItem from="1538055610984" duration="575000" />
       <workItem from="1543848314219" duration="1339000" />
-      <workItem from="1543865118453" duration="765000" />
+      <workItem from="1543865118453" duration="1153000" />
+      <workItem from="1543874552315" duration="2734000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SyllabaryTest_testMixed - 2018.12.03 at 08h 54m 23s.xml">
-      <configuration name="SyllabaryTest.testMixed" configurationId="JUnit" />
+    <history-entry file="SyllabaryTest_testNewLine - 2018.12.03 at 16h 33m 19s.xml">
+      <configuration name="SyllabaryTest.testNewLine" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SyllabaryTest_testMixed - 2018.12.03 at 09h 03m 37s.xml">
-      <configuration name="SyllabaryTest.testMixed" configurationId="JUnit" />
+    <history-entry file="SyllabaryTest_testNewLine - 2018.12.03 at 16h 37m 10s.xml">
+      <configuration name="SyllabaryTest.testNewLine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SyllabaryTest_testNewLine - 2018.12.03 at 16h 37m 40s.xml">
+      <configuration name="SyllabaryTest.testNewLine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SyllabaryTest_testNewLine - 2018.12.03 at 16h 38m 10s.xml">
+      <configuration name="SyllabaryTest.testNewLine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SyllabaryTest_testNewLine - 2018.12.03 at 16h 38m 21s.xml">
+      <configuration name="SyllabaryTest.testNewLine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SyllabaryTest_testNewLine - 2018.12.03 at 16h 42m 12s.xml">
+      <configuration name="SyllabaryTest.testNewLine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SyllabaryTest_testNewLine - 2018.12.03 at 16h 42m 30s.xml">
+      <configuration name="SyllabaryTest.testNewLine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SyllabaryTest_testNewLine - 2018.12.03 at 16h 44m 54s.xml">
+      <configuration name="SyllabaryTest.testNewLine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SyllabaryTest_testNewLine - 2018.12.03 at 16h 45m 39s.xml">
+      <configuration name="SyllabaryTest.testNewLine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SyllabaryTest_testNewLine - 2018.12.03 at 16h 47m 28s.xml">
+      <configuration name="SyllabaryTest.testNewLine" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9094000" />
+    <option name="totallyTimeSpent" value="12216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -669,8 +961,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.6710671" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12604167" sideWeight="0.6710671" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -684,11 +977,9 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -744,14 +1035,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -772,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,7 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,7 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,13 +1337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1094,26 +1365,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/SyllabaryTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3165">
-          <caret line="218" column="33" lean-forward="false" selection-start-line="218" selection-start-column="33" selection-end-line="218" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page29.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+        <state relative-caret-position="269">
+          <caret line="364" column="15" lean-forward="false" selection-start-line="362" selection-start-column="12" selection-end-line="364" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/SyllabaryTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="262" column="1" lean-forward="true" selection-start-line="262" selection-start-column="1" selection-end-line="262" selection-end-column="1" />
           <folding />
         </state>
       </provider>
