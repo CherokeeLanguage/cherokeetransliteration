@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="154e4d3e-e249-4d98-8bd4-52bd93a89790" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/jalagiTranslit-0.1.2.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transliteration.iws" afterPath="$PROJECT_DIR$/transliteration.iws" />
     </list>
     <ignored path="transliteration.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,8 +67,8 @@
       <file leaf-file-name="SyllabaryUtil.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="76" column="15" lean-forward="false" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
+            <state relative-caret-position="354">
+              <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -644,7 +642,7 @@
       <workItem from="1440109438685" duration="42000" />
       <workItem from="1538055610984" duration="575000" />
       <workItem from="1543848314219" duration="1339000" />
-      <workItem from="1543865118453" duration="736000" />
+      <workItem from="1543865118453" duration="765000" />
     </task>
     <servers />
   </component>
@@ -657,7 +655,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9065000" />
+    <option name="totallyTimeSpent" value="9094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1053" extended-state="0" />
@@ -1114,8 +1112,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="76" column="15" lean-forward="false" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
+        <state relative-caret-position="354">
+          <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
           <folding />
         </state>
       </provider>
