@@ -213,4 +213,11 @@ class SyllabaryTest extends GroovyTestCase {
         replacedSearchTerm = su.replace("jisqua");
         println replacedSearchTerm
     }
+
+    public void testMixed() {
+        def su = new SyllabaryUtil()
+        def value = "achuja ani<e>Ridge <e>Baltimore"
+        def translit = su.mixedTransliteration(value)
+        println translit
+    }
 }

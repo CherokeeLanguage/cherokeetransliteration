@@ -346,6 +346,43 @@ public class SyllabaryUtil {
         return data;
     }
 
+    def mixedTransliteration(String data) {
+        def sb = new StringBuilder()
+        def words = data.split(" ")
+        words.each {
+            if (!it.startsWith("<e>") && !it.contains("<e>")) {
+                sb << tsalagiToSyllabary(it, false);
+            } else {
+                //temp fix for hybrid words thst start with cherokee and have english in them
+                if (it.startsWith("<e>")) {
+                    sb << it
+                } else if (it.contains("<e>")) {
+                    def word = it.split("<e>")
+                    def sb2 = new StringBuilder()
+                    word.eachWithIndex {str, idx ->
+                        if (idx == 0) {
+                            sb2 << tsalagiToSyllabary(str, false)
+                        } else {
+                            sb2 << str
+                        }
+                    }
+
+                    sb << sb2
+                }
+            }
+
+            sb << " "
+        }
+
+        sb << "\n"
+
+
+        //remove all of the <e> tags to clean up the latin texts
+        sb = sb.replaceAll("<e>", "")
+
+        return sb
+    }
+
     def tsalagiToSyllabary(String data) {
         return tsalagiToSyllabary(data, true);
     }
