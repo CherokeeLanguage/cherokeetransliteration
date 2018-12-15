@@ -293,7 +293,14 @@ public class SyllabaryUtil {
         data = data.replace('gwi', 'qui');
         data = data.replace('gwo', 'quo');
         data = data.replace('gwu', 'quu');
-        data = data.replace('gwv', 'quv');
+        data = data.replace('kwv', 'quv');
+        data = data.replace('kwa', 'qua');
+        data = data.replace('kwe', 'que');
+        data = data.replace('kwi', 'qui');
+        data = data.replace('kwo', 'quo');
+        data = data.replace('kwu', 'quu');
+        data = data.replace('kwv', 'quv');
+
         data = data.replace('cha', 'tsa');
         data = data.replace('che', 'tse');
         data = data.replace('chi', 'tsi');
@@ -427,7 +434,7 @@ public class SyllabaryUtil {
                  it=='o'||it=='u'||it=='v'||
                  it=='g'||it=='k'||it=='h'||
                  it=='l'||it=='m'||it=='n'||
-                 it=='q'||it=='s'||it=='d'||
+                 it=='q'||it=='s'||it=='d'|| it=='k'||
                  it=='t'||it=='w'||it=='y'||
                  it=='\''||it=='-'||it==' '||
                  it==','||it=='.'||it=='!'||
@@ -596,8 +603,34 @@ public class SyllabaryUtil {
                     if (itt == 'a') {
                         returnValue += syllabaryMap2.ka;
                         counter++;
+                    } else if (itt == "w") {
+                        if (counter + 2 < datasize) {
+                            def ittt = data.charAt(counter + 2);
+                            if (ittt == 'a') {
+                                returnValue += syllabaryMap2.qua;
+                                counter += 3;
+                            } else if (ittt == 'e') {
+                                returnValue += syllabaryMap2.que;
+                                counter += 3;
+                            } else if (ittt == 'i') {
+                                returnValue += syllabaryMap2.qui;
+                                counter += 3;
+                            } else if (ittt == 'o') {
+                                returnValue += syllabaryMap2.quo;
+                                counter += 3;
+                            } else if (ittt == 'u') {
+                                returnValue += syllabaryMap2.quu;
+                                counter += 3;
+                            } else if (ittt == 'v') {
+                                returnValue += syllabaryMap2.quv;
+                                counter += 3;
+                            } else {
+                                returnValue += "not a valid letter";
+                            }
+                        } else {
+                            returnValue += "not a valid letter";
+                        }
                     } else {
-                        //should this really be 'ga' or return not a valid letter?
                         returnValue += "not a valid letter";
                     }
                 } else {
