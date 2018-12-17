@@ -409,6 +409,12 @@ public class SyllabaryUtil {
         return sb
     }
 
+    //takes the transliteration and replaces older transliterations with newer values
+    def tsalagiToSyllabaryNormalize(String data) {
+        def dataLatin = tsalagiToSyllabary(data)
+        reverseReplace(dataLatin)
+    }
+
     def tsalagiToSyllabary(String data) {
         return tsalagiToSyllabary(data, true);
     }
