@@ -71,8 +71,8 @@ class SyllabaryTest extends GroovyTestCase {
     }
 
     public void testSentences() {
-        def TEXT = 'saquu ayotli agikaha.'
-        assertTrue('ᏌᏊ ᎠᏲᏟ ᎠᎩᎧᎭ.' == SyllabaryUtil.tsalagiToSyllabary(TEXT));
+        def text = 'saquu ayotli agikaha.'
+        assertTrue('ᏌᏊ ᎠᏲᏟ ᎠᎩᎧᎭ.' == SyllabaryUtil.tsalagiToSyllabary(text));
         assertTrue('ᏌᏊ ᎠᏲᏟ ᎠᎩᎧᎭ.' == SyllabaryUtil.tsalagiToSyllabary('sa-quu a-yo-tli a-gi-ka-ha.'))
 
     }
@@ -180,6 +180,10 @@ class SyllabaryTest extends GroovyTestCase {
         def su = new SyllabaryUtil()
         def value = "achuja ani<e>Ridge <e>Baltimore"
         assertEquals("ᎠᏧᏣ ᎠᏂRidge Baltimore", SyllabaryUtil.mixedTransliteration(value).trim())
+    }
+
+    public void testMSCT() {
+        println SyllabaryUtil.parseSyllabary('ᏚᏙᎥᎢ')
     }
 
     public void testNewLine() {

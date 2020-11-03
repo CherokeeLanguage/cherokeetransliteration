@@ -21,11 +21,11 @@ repositories {
 }
 
 dependencies {
-
+// https://mvnrepository.com/artifact/org.jsoup/jsoup
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.13.1'
     compile 'junit:junit:4.11'
     compile 'org.codehaus.groovy:groovy-all:2.4.0'
     compile group: "org.apache.opennlp", name: "opennlp-tools", version: "1.9.0"
-    runtime group: "org.apache.opennlp", name: "opennlp-tools", version: "1.9.0"
 //    localGroovy();
 //    groovy localGroovy()
     testCompile 'junit:junit:4.10'

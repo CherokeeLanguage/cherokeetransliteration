@@ -2,447 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="154e4d3e-e249-4d98-8bd4-52bd93a89790" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/com/cobradoc/cherokee/SyllabaryUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/com/cobradoc/cherokee/SyllabaryUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/com/cobradoc/cherokee/util/SyllabaryCreate$_formVoltron_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/com/cobradoc/cherokee/util/SyllabaryCreate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/jalagiTranslit-0.1.3.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.cobradoc.jalagiTranslit.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.cobradoc.jalagiTranslit.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.cobradoc.jalagiTranslit.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jalagiTranslit.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jalagiTranslit_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jalagiTranslit_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/util/SyllabaryCreate.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/ProcessText.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page100.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page100_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page10_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page11_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page12_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page13_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page14_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page15_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page16.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page16_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page17.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page17_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page18_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page19.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page19_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page1_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page20_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page21.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page21_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page22.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page22_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page23_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page24.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page24_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page25_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page26.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page26_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page27.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page27_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page28.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page28_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page29_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page2_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page30.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page30_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page31.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page31_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page32.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page32_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page33.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page33_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page34.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page34_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page35.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page35_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page36.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page36_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page37.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page37_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page38.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page38_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page39.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page39_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page3_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page40.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page40_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page41.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page41_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page42.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page42_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page43.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page43_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page44.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page44_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page45.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page45_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page46.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page46_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page47.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page47_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page48.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page48_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page49.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page49_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page4_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page50.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page50_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page51.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page51_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page52.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page52_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page53.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page53_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page54.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page54_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page55.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page55_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page56.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page56_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page57.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page57_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page58.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page58_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page59.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page59_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page5_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page60.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page60_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page61.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page61_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page62.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page62_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page63.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page63_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page64.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page64_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page65.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page65_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page66.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page66_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page67.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page67_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page68.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page68_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page69.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page69_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page6_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page70.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page70_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page71.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page71_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page72.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page72_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page73.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page73_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page74.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page74_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page75.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page75_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page76.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page76_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page77.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page77_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page78.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page78_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page79.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page79_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page7_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page80.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page80_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page81.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page81_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page82.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page82_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page83.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page83_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page84.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page84_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page85.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page85_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page86.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page86_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page87.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page87_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page88.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page88_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page89.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page89_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page8_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page90.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page90_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page91.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page91_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page92.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page92_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page93.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page93_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page94.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page94_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page95.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page95_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page96.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page96_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page97.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page97_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page98.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page98_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page99.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page99_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page9_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/packageFilesForUpload.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/processOneFile.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/tsogadu nvdo_ tsigegvwovdisgei_20180702091621.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/ProcessText.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/SyllabaryTest.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page100.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page100_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page10_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page11_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page12_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page13_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page14_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page15_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page16.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page16_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page17.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page17_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page18_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page19.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page19_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page1_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page20_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page21.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page21_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page22.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page22_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page23_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page24.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page24_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page25_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page26.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page26_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page27.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page27_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page28.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page28_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page29_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page2_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page30.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page30_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page31.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page31_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page32.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page32_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page33.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page33_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page34.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page34_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page35.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page35_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page36.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page36_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page37.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page37_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page38.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page38_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page39.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page39_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page3_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page40.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page40_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page41.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page41_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page42.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page42_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page43.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page43_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page44.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page44_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page45.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page45_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page46.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page46_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page47.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page47_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page48.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page48_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page49.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page49_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page4_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page50.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page50_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page51.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page51_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page52.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page52_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page53.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page53_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page54.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page54_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page55.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page55_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page56.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page56_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page57.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page57_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page58.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page58_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page59.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page59_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page5_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page60.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page60_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page61.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page61_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page62.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page62_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page63.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page63_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page64.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page64_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page65.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page65_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page66.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page66_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page67.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page67_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page68.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page68_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page69.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page69_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page6_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page70.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page70_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page71.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page71_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page72.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page72_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page73.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page73_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page74.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page74_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page75.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page75_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page76.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page76_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page77.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page77_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page78.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page78_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page79.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page79_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page7_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page80.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page80_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page81.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page81_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page82.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page82_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page83.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page83_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page84.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page84_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page85.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page85_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page86.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page86_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page87.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page87_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page88.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page88_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page89.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page89_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page8_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page90.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page90_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page91.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page91_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page92.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page92_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page93.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page93_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page94.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page94_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page95.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page95_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page96.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page96_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page97.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page97_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page98.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page98_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page99.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page99_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/files/page9_latin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/packageFilesForUpload.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/processOneFile.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/groovy/com/cobradoc/cherokee/tsogadu nvdo_ tsigegvwovdisgei_20180702091621.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/javascript/javascriptTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/javascript/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.cobradoc.jalagiTranslit.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com.cobradoc.jalagiTranslit.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.cobradoc.jalagiTranslit.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com.cobradoc.jalagiTranslit.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/SyllabaryTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/SyllabaryTest.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transliteration.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/transliteration.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transliteration.iws" beforeDir="false" afterPath="$PROJECT_DIR$/transliteration.iws" afterDir="false" />
     </list>
-    <ignored path="transliteration.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -499,61 +67,48 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jalagiTranslit" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jalagiTranslit" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jalagiTranslit" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jalagiTranslit" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jalagiTranslit" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="transliteration" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1904">
-              <caret line="431" selection-start-line="431" selection-end-line="431" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/SyllabaryTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -575,72 +130,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/OpenNLPTest.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/SyllabaryTest.groovy" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="784" />
     <option name="y" value="61" />
     <option name="width" value="1271" />
     <option name="height" value="979" />
   </component>
+  <component name="ProjectId" id="1e5WeaWWPjb0Muai0IEbXzPo7cU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="jalagiTranslit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cherokee-transliteration" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="jalagiTranslit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cherokee-transliteration" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jalagiTranslit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cherokee-transliteration" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jalagiTranslit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cherokee-transliteration" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jalagiTranslit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cherokee-transliteration" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jalagiTranslit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cherokee-transliteration" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
@@ -655,7 +159,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544850898364" />
     <property name="dynamic.classpath" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CherokeeConjugationUtilities" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -678,19 +182,7 @@
       <recent name="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.SyllabaryTest">
+  <component name="RunManager" selected="Gradle.cherokee-transliteration [test]">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -732,15 +224,15 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
-    </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -748,10 +240,88 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SyllabaryTest.testMSCT" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.cobradoc.cherokee.SyllabaryTest.testMSCT&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="cherokee-transliteration [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="cherokee-transliteration [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="cherokee-transliteration [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
       <setting name="launchBrowser" value="false" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
@@ -766,26 +336,6 @@
       <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="OpenNLPTest.testOpenNLP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.cobradoc.jalagiTranslit.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cobradoc.cherokee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cobradoc.cherokee" />
-      <option name="MAIN_CLASS_NAME" value="com.cobradoc.cherokee.OpenNLPTest" />
-      <option name="METHOD_NAME" value="testOpenNLP" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SyllabaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -807,67 +357,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyllabaryTest.testMixed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jalagiTranslit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cobradoc.cherokee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cobradoc.cherokee" />
-      <option name="MAIN_CLASS_NAME" value="com.cobradoc.cherokee.SyllabaryTest" />
-      <option name="METHOD_NAME" value="testMixed" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SyllabaryTest.testNewLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jalagiTranslit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cobradoc.cherokee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cobradoc.cherokee" />
-      <option name="MAIN_CLASS_NAME" value="com.cobradoc.cherokee.SyllabaryTest" />
-      <option name="METHOD_NAME" value="testNewLine" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SyllabaryTest.testTsJ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jalagiTranslit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cobradoc.cherokee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cobradoc.cherokee" />
-      <option name="MAIN_CLASS_NAME" value="com.cobradoc.cherokee.SyllabaryTest" />
-      <option name="METHOD_NAME" value="testTsJ" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -879,6 +368,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -899,19 +389,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SyllabaryTest.testTsJ" />
-      <item itemvalue="JUnit.SyllabaryTest.testMixed" />
-      <item itemvalue="JUnit.SyllabaryTest.testNewLine" />
-      <item itemvalue="JUnit.OpenNLPTest.testOpenNLP" />
+      <item itemvalue="Gradle.SyllabaryTest.testMSCT" />
+      <item itemvalue="Gradle.cherokee-transliteration [build]" />
+      <item itemvalue="Gradle.cherokee-transliteration [assemble]" />
+      <item itemvalue="Gradle.cherokee-transliteration [test]" />
       <item itemvalue="JUnit.SyllabaryTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.cherokee-transliteration [test]" />
+        <item itemvalue="Gradle.cherokee-transliteration [assemble]" />
+        <item itemvalue="Gradle.cherokee-transliteration [build]" />
+        <item itemvalue="Gradle.SyllabaryTest.testMSCT" />
         <item itemvalue="JUnit.SyllabaryTest" />
-        <item itemvalue="JUnit.OpenNLPTest.testOpenNLP" />
-        <item itemvalue="JUnit.SyllabaryTest.testNewLine" />
-        <item itemvalue="JUnit.SyllabaryTest.testMixed" />
-        <item itemvalue="JUnit.SyllabaryTest.testTsJ" />
       </list>
     </recent_temporary>
   </component>
@@ -945,117 +435,10 @@
       <workItem from="1543975626824" duration="2325000" />
       <workItem from="1544850629885" duration="350000" />
       <workItem from="1571433552490" duration="324000" />
+      <workItem from="1593612034275" duration="648000" />
+      <workItem from="1604442236893" duration="509000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="OpenNLPTest_testOpenNLP - 2018.12.04 at 20h 29m 57s.xml">
-      <configuration name="OpenNLPTest.testOpenNLP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OpenNLPTest_testOpenNLP - 2018.12.04 at 20h 30m 34s.xml">
-      <configuration name="OpenNLPTest.testOpenNLP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OpenNLPTest_testOpenNLP - 2018.12.04 at 20h 31m 19s.xml">
-      <configuration name="OpenNLPTest.testOpenNLP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OpenNLPTest_testOpenNLP - 2018.12.04 at 20h 32m 53s.xml">
-      <configuration name="OpenNLPTest.testOpenNLP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OpenNLPTest_testOpenNLP - 2018.12.04 at 20h 33m 38s.xml">
-      <configuration name="OpenNLPTest.testOpenNLP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OpenNLPTest_testOpenNLP - 2018.12.04 at 20h 35m 00s.xml">
-      <configuration name="OpenNLPTest.testOpenNLP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OpenNLPTest_testOpenNLP - 2018.12.04 at 20h 35m 40s.xml">
-      <configuration name="OpenNLPTest.testOpenNLP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OpenNLPTest_testOpenNLP - 2018.12.04 at 20h 36m 18s.xml">
-      <configuration name="OpenNLPTest.testOpenNLP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OpenNLPTest_testOpenNLP - 2018.12.04 at 20h 36m 46s.xml">
-      <configuration name="OpenNLPTest.testOpenNLP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SyllabaryTest - 2019.10.18 at 16h 22m 05s.xml">
-      <configuration name="SyllabaryTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15215000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="784" y="61" width="1271" height="979" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6710671" visible="true" weight="0.16517495" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Palette&#9;" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32130778" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="IDEtalk Messages" order="8" />
-      <window_info anchor="bottom" id="Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32963374" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="15" weight="0.1685761" />
-      <window_info anchor="bottom" id="Database Changes" order="16" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="CDI" order="4" />
-      <window_info anchor="right" id="JetGradle" order="5" />
-      <window_info anchor="right" id="Designer" order="6" />
-      <window_info anchor="right" id="IDEtalk" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="right" id="Maven" order="10" />
-      <window_info anchor="right" id="Capture Analysis" order="11" />
-      <window_info anchor="right" id="Gradle" order="12" />
-      <window_info anchor="right" id="Theme Preview" order="13" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6710671" visible="true" weight="0.13208556" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Palette&#9;" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32815966" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Changes" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="IDEtalk Messages" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Application Servers" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32963374" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="IDEtalk" order="4" />
-      <window_info anchor="right" id="CDI" order="5" />
-      <window_info anchor="right" id="Designer" order="6" />
-      <window_info anchor="right" id="JetGradle" order="7" />
-      <window_info anchor="right" id="Palette" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1068,120 +451,15 @@
       <collection />
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1604442755505">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604442755505" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/javascript/javascriptTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/cherokeeParser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javascript/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/srca/main/groovy/com/cobradoc/cherokee/util/SyllabaryCreate.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page1_latin.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/files/page29.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" selection-end-line="33" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/FileInputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/OpenNLPTest.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="431" selection-start-line="431" selection-end-line="431" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/processOneFile.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/packageFilesForUpload.groovy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/ProcessText.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/util/SyllabaryCreate.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/SyllabaryTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
