@@ -6,7 +6,7 @@
 *
 * Enjoy!  And don't do bad stuff.
 */
-package com.cobradoc.cherokee;
+package net.cherokeedictionary.transliteration;
 
 //TODO: move each letter itaration out to its own method - need to figure out a way to handle it so it will increment correctly
 // the idea being that in the end the code will be almost identical for JS and Groovy

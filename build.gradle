@@ -11,8 +11,8 @@ apply plugin: 'maven'
 apply plugin: 'checkstyle'
 apply plugin: 'codenarc'
 
-group = 'com.cobradoc'
-version = '0.1.4'
+group = 'net.cherokeedictionary'
+version = '0.1.5'
 
 repositories {
     maven {url 'file:///' + new File(System.getProperty('user.home'), '/.m2/repository').absolutePath}

@@ -6,7 +6,9 @@
 *
 * Enjoy!  And don't do bad stuff.
 */
-package com.cobradoc.cherokee
+package net.cherokeedictionary.transliteration
+
+import net.cherokeedictionary.transliteration.SyllabaryUtil
 
 /**
  *
@@ -152,13 +154,13 @@ class SyllabaryTest extends GroovyTestCase {
 
     public void testSyllabaryParse() {
         def value = "ᎠᏕᎳᎰᎯᏍᏗ (w) ᎬᏕᎳᏦᎯᏍᏙᏗ  (e)"
-        assertEquals("adelahohisdi (w) gvdelatsohisdodi  (e)", SyllabaryUtil.parseSyllabaryWithPunctuationAndLatin(value))
+        GroovyTestCase.assertEquals("adelahohisdi (w) gvdelatsohisdodi  (e)", SyllabaryUtil.parseSyllabaryWithPunctuationAndLatin(value))
 
         value = "ᎠᏕᎳᎰᎯᏍᏗ/ᎬᏕᎳᏦᎯᏍᏙᏗ"
-        assertEquals("adelahohisdi/gvdelatsohisdodi", SyllabaryUtil.parseSyllabaryWithPunctuationAndLatin(value))
+        GroovyTestCase.assertEquals("adelahohisdi/gvdelatsohisdodi", SyllabaryUtil.parseSyllabaryWithPunctuationAndLatin(value))
 
         value = "ᎠᏕᎳᎰᎯᏍᏗ,ᎬᏕᎳᏦᎯᏍᏙᏗ"
-        assertEquals("adelahohisdi,gvdelatsohisdodi", SyllabaryUtil.parseSyllabaryWithPunctuationAndLatin(value))
+        GroovyTestCase.assertEquals("adelahohisdi,gvdelatsohisdodi", SyllabaryUtil.parseSyllabaryWithPunctuationAndLatin(value))
     }
 
     public void testTsJ() {
