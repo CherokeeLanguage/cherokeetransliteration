@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="154e4d3e-e249-4d98-8bd4-52bd93a89790" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/com/cobradoc/cherokee/SyllabaryUtil.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/net/cherokeedictionary/transliteration/SyllabaryUtil.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/cobradoc/cherokee/SyllabaryTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/net/cherokeedictionary/transliteration/SyllabaryTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jalagiTranslit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jalagiTranslit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transliteration.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/transliteration.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transliteration.iws" beforeDir="false" afterPath="$PROJECT_DIR$/transliteration.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,12 +129,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="784" />
-    <option name="y" value="61" />
-    <option name="width" value="1271" />
-    <option name="height" value="979" />
-  </component>
   <component name="ProjectId" id="1e5WeaWWPjb0Muai0IEbXzPo7cU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -157,7 +151,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544850898364" />
     <property name="dynamic.classpath" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cherokeeconjugation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -255,9 +249,7 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="cherokee-transliteration [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -276,9 +268,7 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="cherokee-transliteration [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -297,9 +287,7 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="cherokee-transliteration [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -318,9 +306,7 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
@@ -411,6 +397,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -445,11 +432,13 @@
       <workItem from="1604442236893" duration="509000" />
       <workItem from="1605143754562" duration="245000" />
       <workItem from="1616774815756" duration="18000" />
+      <workItem from="1617062290291" duration="20000" />
+      <workItem from="1617062436595" duration="38000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">

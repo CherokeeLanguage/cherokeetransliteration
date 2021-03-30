@@ -12,7 +12,7 @@ apply plugin: 'checkstyle'
 apply plugin: 'codenarc'
 
 group = 'net.cherokeedictionary'
-version = '0.1.5'
+version = '0.1.15'
 
 repositories {
     maven {url 'file:///' + new File(System.getProperty('user.home'), '/.m2/repository').absolutePath}
