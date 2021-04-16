@@ -13,8 +13,7 @@ plugins {
     // Apply the java-library plugin for API and implementation separation.
     id 'java-library'
 
-    id 'checkstyle'
-    id 'codenarc'
+    id 'maven-publish'
 }
 
 repositories {
@@ -22,12 +21,11 @@ repositories {
     jcenter()
 }
 
-group = 'net.cherokeedictionary'
 version = '0.2.0'
 
 dependencies {
     // Use the latest Groovy version for building this library
-    implementation 'org.codehaus.groovy:groovy-all:3.0.7'
+    implementation 'org.codehaus.groovy:groovy-all:2.5.13'
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:29.0-jre'
@@ -38,4 +36,16 @@ dependencies {
 
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     api 'org.apache.commons:commons-math3:3.6.1'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'net.cherokeedictionary'
+            artifactId = 'jalagiTranslit'
+            version = '0.2.0'
+
+            from components.java
+        }
+    }
 }
