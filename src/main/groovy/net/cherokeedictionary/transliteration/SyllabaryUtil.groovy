@@ -427,7 +427,7 @@ public class SyllabaryUtil {
 
 
     //sometimes we don't want all hyphens replaced such as when those are delineating the beginning of lists
-    static def newTsalagiToSyllabary(String data, boolean replaceHyphens) {
+    static def newTsalagiToSyllabary(String data, boolean replaceHyphens=false, boolean includeAlpha=false) {
         data = data.toLowerCase();
 
         data = replace(data, replaceHyphens);
@@ -554,7 +554,9 @@ public class SyllabaryUtil {
         data = data.replaceAll("v", syllabaryMap2.v)
         data = data.replaceAll("s", syllabaryMap2.s)
 
-        data = data.replaceAll(/[a-zA-Z]/, "not a valid letter")
+        if (!includeAlpha) {
+            data = data.replaceAll(/[a-zA-Z]/, "not a valid letter")
+        }
 
         return data;
     }
