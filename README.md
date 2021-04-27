@@ -116,7 +116,7 @@ At some point in the future I may write a version of this program (the index.htm
 Transliteration is fallible.  If you enter _sukta_ and expect ᏑᎦᏔ - you will be disappointed.  If you enter _sukata_ and expect ᏑᎦᏔ - you will also be disappointed.  In order to use the transliteration process provided you will need to know how to "spell" the Tsalagi (romanized) version to view the Syllabary transliteration.
 
 ----
-#JAVASCRIPT COMPILATION
+# JAVASCRIPT COMPILATION
 
 To generate the javascript version of the transliteration code run:\
 gradle convert
