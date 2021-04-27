@@ -127,6 +127,7 @@ The current version included here is from "Apr 27, 2020"
 The code in test/javascript/test.html will give you insight into how to include this on your page.
 
 If you want to run the javascript tests to make sure they all work simply uncomment this line:
+
 &lt;!--&lt;script src="javascriptTest.js"&gt;&lt;/script&gt;--&gt;
 
 inside test.html and open the page in your browser.
