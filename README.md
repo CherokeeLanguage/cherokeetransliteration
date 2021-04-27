@@ -118,7 +118,7 @@ Transliteration is fallible.  If you enter _sukta_ and expect ᏑᎦᏔ - you wi
 ----
 # JAVASCRIPT COMPILATION
 
-To generate the javascript version of the transliteration code run:\
+To generate the javascript version of the transliteration code run:
 gradle convert
 
 you'll need to have the latest javascript files from: https://github.com/chiquitinxx/grooscript/tree/master/src/main/resources/META-INF/resources
@@ -126,7 +126,7 @@ The current version included here is from "Apr 27, 2020"
 
 The code in test/javascript/test.html will give you insight into how to include this on your page.
 
-If you want to run the javascript tests to make sure they all work simply uncomment this line:\
-<!--<script src="javascriptTest.js"></script>-->
+If you want to run the javascript tests to make sure they all work simply uncomment this line:
+&lt;!--&lt;script src="javascriptTest.js"&gt;&lt;/script&gt;--&gt;
 
 inside test.html and open the page in your browser.
