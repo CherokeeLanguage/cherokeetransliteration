@@ -360,7 +360,7 @@ public class SyllabaryUtil {
     }
 
     static def mixedTransliteration(String data) {
-        def sb = new StringBuilder()
+        def sb = []
         def words = data.split(" ")
         boolean hasCR = false;
         def crIndex = -1;
@@ -385,7 +385,7 @@ public class SyllabaryUtil {
                     sb << it
                 } else if (it.contains("<e>")) {
                     def word = it.split("<e>")
-                    def sb2 = new StringBuilder()
+                    def sb2 = []
                     word.eachWithIndex {str, idx ->
                         if (idx == 0) {
                             sb2 << tsalagiToSyllabary(str, false)
@@ -394,7 +394,7 @@ public class SyllabaryUtil {
                         }
                     }
 
-                    sb << sb2
+                    sb << sb2.join("")
                 }
             }
 
@@ -404,6 +404,7 @@ public class SyllabaryUtil {
         sb << "\n"
 
         //remove all of the <e> tags to clean up the latin texts
+        sb = sb.join("");
         sb = sb.replaceAll("<e>", "").replaceAll("111", "\n").replaceAll("222", "\r");
 
         return sb

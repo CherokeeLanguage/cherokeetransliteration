@@ -114,3 +114,19 @@ This representation is unidirectional - if you entered _Dohiju_ then the transli
 At some point in the future I may write a version of this program (the index.html transliteration portion) that the user may select preferences for "do vs to," "ju vs tsu," "gwa vs qua," etc.  At this time only the one romanized transliteration is available.
 
 Transliteration is fallible.  If you enter _sukta_ and expect ᏑᎦᏔ - you will be disappointed.  If you enter _sukata_ and expect ᏑᎦᏔ - you will also be disappointed.  In order to use the transliteration process provided you will need to know how to "spell" the Tsalagi (romanized) version to view the Syllabary transliteration.
+
+----
+#JAVASCRIPT COMPILATION
+
+To generate the javascript version of the transliteration code run:\
+gradle convert
+
+you'll need to have the latest javascript files from: https://github.com/chiquitinxx/grooscript/tree/master/src/main/resources/META-INF/resources
+The current version included here is from "Apr 27, 2020"
+
+The code in test/javascript/test.html will give you insight into how to include this on your page.
+
+If you want to run the javascript tests to make sure they all work simply uncomment this line:\
+<!--<script src="javascriptTest.js"></script>-->
+
+inside test.html and open the page in your browser.

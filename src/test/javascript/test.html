@@ -12,18 +12,21 @@
 <head>
 <title>Transliteration</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="grooscript.min.js"></script>
+<script type="text/javascript" src="grooscript-html-builder.js"></script>
 
 <!-- change this line below to whatever the local cherokeeParser.js file is -->
-<script src="../../main/javascript/cherokeeParser.js"></script>
+<!--<script src="../../main/javascript/cherokeeParser.js"></script>-->
 <!-- uncomment this line to run the tests in javascript-->
+<script src="../../main/webapp/js/app/SyllabaryUtil.js"></script>
 <!--<script src="javascriptTest.js"></script>-->
 
 <script>
     $(function() {
         $('#fromSyllabary').click(function() {
             var trans = $('#transliteration').val();
-            var output = parseSyllabary(trans);
+            var output = SyllabaryUtil.parseSyllabary(trans);
             $('#tsalagi').val(output);
         });
 
@@ -40,7 +43,7 @@
                 printableValue += value + ' -- ';
             }
 
-            printableValue += tsalagiToSyllabary(value);
+            printableValue += SyllabaryUtil.tsalagiToSyllabary(value);
             $('#transliteration').val(printableValue);
         });
     });

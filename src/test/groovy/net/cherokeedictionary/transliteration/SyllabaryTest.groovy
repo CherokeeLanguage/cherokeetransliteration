@@ -8,15 +8,13 @@
 */
 package net.cherokeedictionary.transliteration
 
-import net.cherokeedictionary.transliteration.SyllabaryUtil
-
 /**
  *
  * @author torr
  * @since 6/20/13
  */
 class SyllabaryTest extends GroovyTestCase {
-    public void testSyllabary() {
+    void testSyllabary() {
         assertTrue ('ᎠᎡᎢᎣᎤᎥᎦ' == SyllabaryUtil.tsalagiToSyllabary('aeiouvga'))
         assertTrue ('ᎧᎨᎩᎪᎫᎬ' == SyllabaryUtil.tsalagiToSyllabary('kagegigogugv'))
         assertTrue ('ᎳᎴᎵᎶᎷᎸ' == SyllabaryUtil.tsalagiToSyllabary('lalelilolulv'))
@@ -39,7 +37,7 @@ class SyllabaryTest extends GroovyTestCase {
         assertTrue('ᏀᎿᏀ' == SyllabaryUtil.tsalagiToSyllabary('nahhnanah'))
         assertTrue('ᎿᏀᎿ' == SyllabaryUtil.tsalagiToSyllabary('hnanahhna'))
 
-        assertTrue('ᎿᏀᎿ' == SyllabaryUtil.parseHyphen('hna-nah-hna'));
+        assertTrue('ᎿᏀᎿ' == SyllabaryUtil.parseHyphen('hna-nah-hna'))
 
         assertTrue('ᏣᎳᎩ' == SyllabaryUtil.tsalagiToSyllabary("tsalagi"))
         assertTrue('ᎠᏆᏚᎵᎭ' == SyllabaryUtil.tsalagiToSyllabary("aquaduliha"))
@@ -54,32 +52,31 @@ class SyllabaryTest extends GroovyTestCase {
         assertTrue('ᏓᏩᏙᎠ' == SyllabaryUtil.tsalagiToSyllabary("dawadoa"))
         assertTrue(SyllabaryUtil.tsalagiToSyllabary("dawadoa") == SyllabaryUtil.tsalagiToSyllabary("dawatoa"))
 
-        assertTrue('ᏓᏩᏙᎠ' == SyllabaryUtil.parseHyphen('da-wa-to-a'));
+        assertTrue('ᏓᏩᏙᎠ' == SyllabaryUtil.parseHyphen('da-wa-to-a'))
 
         assertTrue('ᏒᎦᏔ' == SyllabaryUtil.tsalagiToSyllabary('svgata'))
         assertTrue('Ꮢnot a valid letterᏔ' == SyllabaryUtil.tsalagiToSyllabary('svkta'))
         assertTrue('ᏒᏍᏒᎪ' == SyllabaryUtil.tsalagiToSyllabary('svssvgo'))
     }
 
-    public void testPhrases() {
+    void testPhrases() {
         assertTrue('ᏣᎳᎩ' == SyllabaryUtil.tsalagiToSyllabary('jalagi'))
-        assertTrue('ᏣᎳᎩᏍᎩ' == SyllabaryUtil.tsalagiToSyllabary('jalagisgi'));
-        assertTrue('ᏙᎾᏓᎪᎲᎢ' == SyllabaryUtil.tsalagiToSyllabary('donadagohvi'));
-        assertTrue('ᏙᏓᏓᎪᎲᎢ' == SyllabaryUtil.tsalagiToSyllabary('dodadagohvi'));
+        assertTrue('ᏣᎳᎩᏍᎩ' == SyllabaryUtil.tsalagiToSyllabary('jalagisgi'))
+        assertTrue('ᏙᎾᏓᎪᎲᎢ' == SyllabaryUtil.tsalagiToSyllabary('donadagohvi'))
+        assertTrue('ᏙᏓᏓᎪᎲᎢ' == SyllabaryUtil.tsalagiToSyllabary('dodadagohvi'))
     }
 
-    public void testSyllabaryParsing() {
-        assertTrue('tletlitlotlutlv' == SyllabaryUtil.parseSyllabary('ᏞᏟᏠᏡᏢ'));
+    void testSyllabaryParsing() {
+        assertTrue('tletlitlotlutlv' == SyllabaryUtil.parseSyllabary('ᏞᏟᏠᏡᏢ'))
     }
 
-    public void testSentences() {
+    void testSentences() {
         def text = 'saquu ayotli agikaha.'
-        assertTrue('ᏌᏊ ᎠᏲᏟ ᎠᎩᎧᎭ.' == SyllabaryUtil.tsalagiToSyllabary(text));
+        assertTrue('ᏌᏊ ᎠᏲᏟ ᎠᎩᎧᎭ.' == SyllabaryUtil.tsalagiToSyllabary(text))
         assertTrue('ᏌᏊ ᎠᏲᏟ ᎠᎩᎧᎭ.' == SyllabaryUtil.tsalagiToSyllabary('sa-quu a-yo-tli a-gi-ka-ha.'))
-
     }
 
-    public void testBadInput() {
+    void testBadInput() {
         assertTrue('not a valid letter' == SyllabaryUtil.tsalagiToSyllabary('k'))
         assertTrue('not a valid letter' == SyllabaryUtil.tsalagiToSyllabary('l'))
         assertTrue("not a valid letter" == SyllabaryUtil.tsalagiToSyllabary('m'))
@@ -99,14 +96,13 @@ class SyllabaryTest extends GroovyTestCase {
         assertTrue("not a valid letternot a valid letter" == SyllabaryUtil.tsalagiToSyllabary("wy"))
         assertTrue("not a valid letternot a valid letter" == SyllabaryUtil.tsalagiToSyllabary("yy"))
 
-
         assertTrue("not a valid letterᏍnot a valid letter" == SyllabaryUtil.tsalagiToSyllabary("tsy"))
 
         assertTrue("not a valid letternot a valid letternot a valid letter" == SyllabaryUtil.tsalagiToSyllabary('tly'))
         assertTrue("not a valid letterᎤnot a valid letter" == SyllabaryUtil.tsalagiToSyllabary('quy'))
     }
 
-    public void testReverseReplace() {
+    void testReverseReplace() {
         assertTrue("gwa" == SyllabaryUtil.reverseReplace("qua"))
 
         assertTrue("gwe" == SyllabaryUtil.reverseReplace("que"))
@@ -127,43 +123,42 @@ class SyllabaryTest extends GroovyTestCase {
         assertTrue("tlv" == SyllabaryUtil.reverseReplace("dlv"))
     }
 
-    public void testReplace() {
-        assertTrue("wado" == SyllabaryUtil.replace("wa-do", true));
+    void testReplace() {
+        assertTrue("wado" == SyllabaryUtil.replace("wa-do", true))
     }
 
-    public void testCH() {
-        assertTrue("jv" == SyllabaryUtil.reverseReplace("chv"));
-        assertTrue("ᎠᏂᏨᏯ" == SyllabaryUtil.tsalagiToSyllabary("anichvya"));
+    void testCH() {
+        assertTrue("jv" == SyllabaryUtil.reverseReplace("chv"))
+        assertTrue("ᎠᏂᏨᏯ" == SyllabaryUtil.tsalagiToSyllabary("anichvya"))
     }
 
-    public void testDurbinFeelingSpellings() {
-        assertTrue("ᏯᏖᎾ" == SyllabaryUtil.tsalagiToSyllabary("hyahtena"));
-        assertTrue("ᏯᏙᏟ" == SyllabaryUtil.tsalagiToSyllabary("hyahtohli"));
-        assertTrue("ᏰᎦᏟ" == SyllabaryUtil.tsalagiToSyllabary("hyehgahli"));
-        assertTrue("ᎢᎦᎷᎦ" == SyllabaryUtil.tsalagiToSyllabary("igaluhga"));
-        assertTrue("ᏗᏰᎦᏟ" == SyllabaryUtil.tsalagiToSyllabary("dihyehgahli"));
-        assertTrue("ᎥᎤᎷᏨᎢ,ᎤᎷᏨᎢ" == SyllabaryUtil.tsalagiToSyllabary("vuluhjvi,uluhjvi"));
+    void testDurbinFeelingSpellings() {
+        assertTrue("ᏯᏖᎾ" == SyllabaryUtil.tsalagiToSyllabary("hyahtena"))
+        assertTrue("ᏯᏙᏟ" == SyllabaryUtil.tsalagiToSyllabary("hyahtohli"))
+        assertTrue("ᏰᎦᏟ" == SyllabaryUtil.tsalagiToSyllabary("hyehgahli"))
+        assertTrue("ᎢᎦᎷᎦ" == SyllabaryUtil.tsalagiToSyllabary("igaluhga"))
+        assertTrue("ᏗᏰᎦᏟ" == SyllabaryUtil.tsalagiToSyllabary("dihyehgahli"))
+        assertTrue("ᎥᎤᎷᏨᎢ,ᎤᎷᏨᎢ" == SyllabaryUtil.tsalagiToSyllabary("vuluhjvi,uluhjvi"))
 
-//        assertTrue("ᎯᎩᏍᎪ ᎢᎳᏏᏗ ᎢᎦᏅᎯᏓ ᏍᏕᏱᏓ ᎤᏮᏔᏅ ᏩᎦ ᎠᎩᎾ ᎠᏍᎳᏗᏍᎬᎢ." == SyllabaryUtil.tsalagiToSyllabary("Hiksgo ilasihdi iganvhida sdeyida uwhtanv wahga agina asladisgvi."));
-        assertTrue("ᎯᎳ ᎢᎩᏓ ᎠᎵᏍᏇᏚᏬ ᎭᎵᏍᏇᏚᎲᏍᎩ?" == SyllabaryUtil.tsalagiToSyllabary("Hila ikida alisgwetuwo halisgwetuhvsgi?"));
-        assertTrue("ᏍᎪᎯ ᎢᎳᏏᏗ ᏂᎦᏅᎭ" == SyllabaryUtil.tsalagiToSyllabary("Sgohi ilasihdi niganvha"));
-        assertTrue("ᎢᎸᎯᏳᎢᏍ ᎢᎾᏓ ᏣᎦᏟᏨᎢ" == SyllabaryUtil.tsalagiToSyllabary("Ilvhiyuis inada tsagahlijvi"));
-        assertTrue("ᎢᎸᏍᎩ ᎢᏳᏟᎶᏓ ᎡᎳᏗ ᎤᏂᎩᏒᎢ ᎩᎳ ᎤᏓᏣᏁᎸᎢ" == SyllabaryUtil.tsalagiToSyllabary("Ilvsgi iyuhliloda eladi uhnigisvi kila udajanelvi"));
+//        assertTrue("ᎯᎩᏍᎪ ᎢᎳᏏᏗ ᎢᎦᏅᎯᏓ ᏍᏕᏱᏓ ᎤᏮᏔᏅ ᏩᎦ ᎠᎩᎾ ᎠᏍᎳᏗᏍᎬᎢ." == SyllabaryUtil.tsalagiToSyllabary("Hiksgo ilasihdi iganvhida sdeyida uwhtanv wahga agina asladisgvi."))
+        assertTrue("ᎯᎳ ᎢᎩᏓ ᎠᎵᏍᏇᏚᏬ ᎭᎵᏍᏇᏚᎲᏍᎩ?" == SyllabaryUtil.tsalagiToSyllabary("Hila ikida alisgwetuwo halisgwetuhvsgi?"))
+        assertTrue("ᏍᎪᎯ ᎢᎳᏏᏗ ᏂᎦᏅᎭ" == SyllabaryUtil.tsalagiToSyllabary("Sgohi ilasihdi niganvha"))
+        assertTrue("ᎢᎸᎯᏳᎢᏍ ᎢᎾᏓ ᏣᎦᏟᏨᎢ" == SyllabaryUtil.tsalagiToSyllabary("Ilvhiyuis inada tsagahlijvi"))
+        assertTrue("ᎢᎸᏍᎩ ᎢᏳᏟᎶᏓ ᎡᎳᏗ ᎤᏂᎩᏒᎢ ᎩᎳ ᎤᏓᏣᏁᎸᎢ" == SyllabaryUtil.tsalagiToSyllabary("Ilvsgi iyuhliloda eladi uhnigisvi kila udajanelvi"))
     }
 
-
-    public void testSyllabaryParse() {
+    void testSyllabaryParse() {
         def value = "ᎠᏕᎳᎰᎯᏍᏗ (w) ᎬᏕᎳᏦᎯᏍᏙᏗ  (e)"
-        GroovyTestCase.assertEquals("adelahohisdi (w) gvdelatsohisdodi  (e)", SyllabaryUtil.parseSyllabaryWithPunctuationAndLatin(value))
+        assertEquals("adelahohisdi (w) gvdelatsohisdodi  (e)", SyllabaryUtil.parseSyllabaryWithPunctuationAndLatin(value))
 
         value = "ᎠᏕᎳᎰᎯᏍᏗ/ᎬᏕᎳᏦᎯᏍᏙᏗ"
-        GroovyTestCase.assertEquals("adelahohisdi/gvdelatsohisdodi", SyllabaryUtil.parseSyllabaryWithPunctuationAndLatin(value))
+        assertEquals("adelahohisdi/gvdelatsohisdodi", SyllabaryUtil.parseSyllabaryWithPunctuationAndLatin(value))
 
         value = "ᎠᏕᎳᎰᎯᏍᏗ,ᎬᏕᎳᏦᎯᏍᏙᏗ"
-        GroovyTestCase.assertEquals("adelahohisdi,gvdelatsohisdodi", SyllabaryUtil.parseSyllabaryWithPunctuationAndLatin(value))
+        assertEquals("adelahohisdi,gvdelatsohisdodi", SyllabaryUtil.parseSyllabaryWithPunctuationAndLatin(value))
     }
 
-    public void testTsJ() {
+    void testTsJ() {
         def value = "ᏥᏍᏆ"
         assertEquals(value, SyllabaryUtil.tsalagiToSyllabary("tsisqua"))
         assertEquals(value, SyllabaryUtil.tsalagiToSyllabary("tsisgwa"))
@@ -178,17 +173,18 @@ class SyllabaryTest extends GroovyTestCase {
         assertEquals(value, SyllabaryUtil.tsalagiToSyllabary(SyllabaryUtil.replace("jisqua")))
     }
 
-    public void testMixed() {
-        def su = new SyllabaryUtil()
+    void testMixed() {
         def value = "achuja ani<e>Ridge <e>Baltimore"
+
         assertEquals("ᎠᏧᏣ ᎠᏂRidge Baltimore", SyllabaryUtil.mixedTransliteration(value).trim())
     }
 
-    public void testMSCT() {
-        println SyllabaryUtil.parseSyllabary('ᏚᏙᎥᎢ')
+    void testMSCT() {
+        assertEquals("dudovi", SyllabaryUtil.parseSyllabary('ᏚᏙᎥᎢ'))
     }
 
-    public void testNewLine() {
+    //TODO: write up test to make sure these are all transliterated correctly with punctuation -- timo 27April21
+    void testNewLine() {
         def text = """Sogwo gola usvhi atsehi etsodv, anigayotli unenai ani<e>Ridge 
 anisgaya, Ugidatlinvya geli unadadasgisane atsvsdv gasgilv,
 unega goweli unisae, udelada unisdayide kanohedv datsohisdv,
@@ -224,20 +220,20 @@ Gunadalegi nole anineli amo edohi tsiyu unanigese, utlisda
 nole gohosdi yinigalisdisgvna, <e>Boudinot nole awina <e>Ridge nole
 tsunadali ulihelisdi nunvnele anegv."""
         def translit = SyllabaryUtil.mixedTransliteration(text)
-//        println translit
+        println translit
     }
 
-    public void testDurbinFeelingSpellingsNew() {
-        assertTrue("ᏯᏖᎾ" == SyllabaryUtil.newTsalagiToSyllabary("hyahtena", false));
-        assertTrue("ᏯᏙᏟ" == SyllabaryUtil.newTsalagiToSyllabary("hyahtohli", false));
-        assertTrue("ᏰᎦᏟ" == SyllabaryUtil.newTsalagiToSyllabary("hyehgahli", false));
-        assertTrue("ᎢᎦᎷᎦ" == SyllabaryUtil.newTsalagiToSyllabary("igaluhga", false));
-        assertTrue("ᏗᏰᎦᏟ" == SyllabaryUtil.newTsalagiToSyllabary("dihyehgahli", false));
-        assertTrue("ᎥᎤᎷᏨᎢ,ᎤᎷᏨᎢ" == SyllabaryUtil.newTsalagiToSyllabary("vuluhjvi,uluhjvi", false));
+    void testDurbinFeelingSpellingsNew() {
+        assertTrue("ᏯᏖᎾ" == SyllabaryUtil.newTsalagiToSyllabary("hyahtena", false))
+        assertTrue("ᏯᏙᏟ" == SyllabaryUtil.newTsalagiToSyllabary("hyahtohli", false))
+        assertTrue("ᏰᎦᏟ" == SyllabaryUtil.newTsalagiToSyllabary("hyehgahli", false))
+        assertTrue("ᎢᎦᎷᎦ" == SyllabaryUtil.newTsalagiToSyllabary("igaluhga", false))
+        assertTrue("ᏗᏰᎦᏟ" == SyllabaryUtil.newTsalagiToSyllabary("dihyehgahli", false))
+        assertTrue("ᎥᎤᎷᏨᎢ,ᎤᎷᏨᎢ" == SyllabaryUtil.newTsalagiToSyllabary("vuluhjvi,uluhjvi", false))
 
-        assertTrue("ᎯᎳ ᎢᎩᏓ ᎠᎵᏍᏇᏚᏬ ᎭᎵᏍᏇᏚᎲᏍᎩ?" == SyllabaryUtil.newTsalagiToSyllabary("Hila ikida alisgwetuwo halisgwetuhvsgi?", false));
-        assertTrue("ᏍᎪᎯ ᎢᎳᏏᏗ ᏂᎦᏅᎭ" == SyllabaryUtil.newTsalagiToSyllabary("Sgohi ilasihdi niganvha", false));
-        assertTrue("ᎢᎸᎯᏳᎢᏍ ᎢᎾᏓ ᏣᎦᏟᏨᎢ" == SyllabaryUtil.newTsalagiToSyllabary("Ilvhiyuis inada tsagahlijvi", false));
-        assertTrue("ᎢᎸᏍᎩ ᎢᏳᏟᎶᏓ ᎡᎳᏗ ᎤᏂᎩᏒᎢ ᎩᎳ ᎤᏓᏣᏁᎸᎢ" == SyllabaryUtil.newTsalagiToSyllabary("Ilvsgi iyuhliloda eladi uhnigisvi kila udajanelvi", false));
+        assertTrue("ᎯᎳ ᎢᎩᏓ ᎠᎵᏍᏇᏚᏬ ᎭᎵᏍᏇᏚᎲᏍᎩ?" == SyllabaryUtil.newTsalagiToSyllabary("Hila ikida alisgwetuwo halisgwetuhvsgi?", false))
+        assertTrue("ᏍᎪᎯ ᎢᎳᏏᏗ ᏂᎦᏅᎭ" == SyllabaryUtil.newTsalagiToSyllabary("Sgohi ilasihdi niganvha", false))
+        assertTrue("ᎢᎸᎯᏳᎢᏍ ᎢᎾᏓ ᏣᎦᏟᏨᎢ" == SyllabaryUtil.newTsalagiToSyllabary("Ilvhiyuis inada tsagahlijvi", false))
+        assertTrue("ᎢᎸᏍᎩ ᎢᏳᏟᎶᏓ ᎡᎳᏗ ᎤᏂᎩᏒᎢ ᎩᎳ ᎤᏓᏣᏁᎸᎢ" == SyllabaryUtil.newTsalagiToSyllabary("Ilvsgi iyuhliloda eladi uhnigisvi kila udajanelvi", false))
     }
 }

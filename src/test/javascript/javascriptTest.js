@@ -16,48 +16,48 @@ $(function() {
      * This should match what's in the SyllabaryTest
      */
     function runTests() {
-        appender('ᎠᎡᎢᎣᎤᎥᎦ' == tsalagiToSyllabary('aeiouvga'));
-        appender('ᎧᎨᎩᎪᎫᎬ' == tsalagiToSyllabary('kagegigogugv'));
-        appender('ᎳᎴᎵᎶᎷᎸ' == tsalagiToSyllabary('lalelilolulv'));
-        appender('ᎹᎺᎻᎼᎽ' == tsalagiToSyllabary('mamemimomu'));
-        appender('ᎿᏀ' == tsalagiToSyllabary('hnanah'));
-        appender('Ꮝ' == tsalagiToSyllabary('s'));
-        appender('ᎾᏁᏂᏃᏄᏅ' == tsalagiToSyllabary('naneninonunv'));
-        appender('ᏆᏇᏈᏉᏊᏋ' == tsalagiToSyllabary('quaquequiquoquuquv'));
-        appender('ᏌᏎᏏᏐᏑᏒ' == tsalagiToSyllabary('sasesisosusv'));
-        appender('ᏓᏕᏗᏙᏚᏛ' == tsalagiToSyllabary('dadedidodudv'));
-        appender('ᏔᏖᏘ' == tsalagiToSyllabary('tateti'));
-        appender('ᏣᏤᏥᏦᏧᏨ' == tsalagiToSyllabary('jajejijojujv'));
-        appender('Ꮬ' == tsalagiToSyllabary('dla'));
-        appender('ᏝᏞᏟᏠᏡᏢ' == tsalagiToSyllabary('tlatletlitlotlutlv'));
-        appender('ᏩᏪᏫᏬᏭᏮ' == tsalagiToSyllabary('wawewiwowuwv'));
-        appender('ᏯᏰᏱᏲᏳᏴ' == tsalagiToSyllabary('yayeyiyoyuyv'));
-        appender('ᏀᎿᏀ' == tsalagiToSyllabary('nahhnanah'));
-        appender('ᎿᏀᎿ' == tsalagiToSyllabary('hnanahhna'));
+        appender('ᎠᎡᎢᎣᎤᎥᎦ' == SyllabaryUtil.tsalagiToSyllabary('aeiouvga'));
+        appender('ᎧᎨᎩᎪᎫᎬ' == SyllabaryUtil.tsalagiToSyllabary('kagegigogugv'));
+        appender('ᎳᎴᎵᎶᎷᎸ' == SyllabaryUtil.tsalagiToSyllabary('lalelilolulv'));
+        appender('ᎹᎺᎻᎼᎽ' == SyllabaryUtil.tsalagiToSyllabary('mamemimomu'));
+        appender('ᎿᏀ' == SyllabaryUtil.tsalagiToSyllabary('hnanah'));
+        appender('Ꮝ' == SyllabaryUtil.tsalagiToSyllabary('s'));
+        appender('ᎾᏁᏂᏃᏄᏅ' == SyllabaryUtil.tsalagiToSyllabary('naneninonunv'));
+        appender('ᏆᏇᏈᏉᏊᏋ' == SyllabaryUtil.tsalagiToSyllabary('quaquequiquoquuquv'));
+        appender('ᏌᏎᏏᏐᏑᏒ' == SyllabaryUtil.tsalagiToSyllabary('sasesisosusv'));
+        appender('ᏓᏕᏗᏙᏚᏛ' == SyllabaryUtil.tsalagiToSyllabary('dadedidodudv'));
+        appender('ᏔᏖᏘ' == SyllabaryUtil.tsalagiToSyllabary('tateti'));
+        appender('ᏣᏤᏥᏦᏧᏨ' == SyllabaryUtil.tsalagiToSyllabary('jajejijojujv'));
+        appender('Ꮬ' == SyllabaryUtil.tsalagiToSyllabary('dla'));
+        appender('ᏝᏞᏟᏠᏡᏢ' == SyllabaryUtil.tsalagiToSyllabary('tlatletlitlotlutlv'));
+        appender('ᏩᏪᏫᏬᏭᏮ' == SyllabaryUtil.tsalagiToSyllabary('wawewiwowuwv'));
+        appender('ᏯᏰᏱᏲᏳᏴ' == SyllabaryUtil.tsalagiToSyllabary('yayeyiyoyuyv'));
+        appender('ᏀᎿᏀ' == SyllabaryUtil.tsalagiToSyllabary('nahhnanah'));
+        appender('ᎿᏀᎿ' == SyllabaryUtil.tsalagiToSyllabary('hnanahhna'));
 
 
-        appender('ᎿᏀᎿ' == parseHyphen('hna-nah-hna'));
+        appender('ᎿᏀᎿ' == SyllabaryUtil.parseHyphen('hna-nah-hna'));
 
-        appender('ᏣᎳᎩ' == tsalagiToSyllabary("tsalagi"));
-        appender('ᎠᏆᏚᎵᎭ' == tsalagiToSyllabary("aquaduliha"));
+        appender('ᏣᎳᎩ' == SyllabaryUtil.tsalagiToSyllabary("tsalagi"));
+        appender('ᎠᏆᏚᎵᎭ' == SyllabaryUtil.tsalagiToSyllabary("aquaduliha"));
 
-        appender('ᏣᎳᎩ' == tsalagiToSyllabary("jalagi"));
-        appender('ᎠᏆᏚᎵᎭ' == tsalagiToSyllabary("agwaduliha"));
+        appender('ᏣᎳᎩ' == SyllabaryUtil.tsalagiToSyllabary("jalagi"));
+        appender('ᎠᏆᏚᎵᎭ' == SyllabaryUtil.tsalagiToSyllabary("agwaduliha"));
 
-        appender('ᏞᏟᏠᏡᏢ' == tsalagiToSyllabary("tletlitlotlutlv"));
-        appender('ᏞᏟᏠᏡᏢ' == tsalagiToSyllabary("dledlidlodludlv"));
-        appender(tsalagiToSyllabary("tletlitlotlutlv")  == tsalagiToSyllabary("dledlidlodludlv"));
+        appender('ᏞᏟᏠᏡᏢ' == SyllabaryUtil.tsalagiToSyllabary("tletlitlotlutlv"));
+        appender('ᏞᏟᏠᏡᏢ' == SyllabaryUtil.tsalagiToSyllabary("dledlidlodludlv"));
+        appender(SyllabaryUtil.tsalagiToSyllabary("tletlitlotlutlv")  == SyllabaryUtil.tsalagiToSyllabary("dledlidlodludlv"));
 
-        appender('ᏒᎦᏔ' == tsalagiToSyllabary('svgata'));
-        appender('Ꮢnot a valid letterᏔ' == tsalagiToSyllabary('svkta'));
-        appender('ᏒᏍᏒᎪ' == tsalagiToSyllabary('svssvgo'));
+        appender('ᏒᎦᏔ' == SyllabaryUtil.tsalagiToSyllabary('svgata'));
+        appender('Ꮢnot a valid letterᏔ' == SyllabaryUtil.tsalagiToSyllabary('svkta'));
+        appender('ᏒᏍᏒᎪ' == SyllabaryUtil.tsalagiToSyllabary('svssvgo'));
 
         testCH();
     }
 
     function testCH() {
-        appender('jv' == tsalagiToSyllabary('chv'));
-        appender('ᎠᏂᏨᏯ' == tsalagiToSyllabary('anichvya'));
+        appender('jv' == SyllabaryUtil.tsalagiToSyllabary('chv'));
+        appender('ᎠᏂᏨᏯ' == SyllabaryUtil.tsalagiToSyllabary('anichvya'));
     }
 
     runTests();
