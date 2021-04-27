@@ -1,3 +1,8 @@
+[Cherokee Transliteration](#cherokee-transliteration)\
+[With Java or Groovy](#java-or-groovy)\
+[Compile Javascript](#javascript-compilation)
+
+
 # cherokee-transliteration
 
 Transliteration of Cherokee can be difficult.  Some projects use delimiters, such as spaces and hyphens, to delineate syllables in order to provide the display.  This project uses a "natural" transliteration to parse single words (with or without hyphenation) and sentences (with or without hyphenation).
@@ -16,6 +21,7 @@ A compiled jar is provided for download, however, if you would like to build you
   * Type: 'gradle check' to run the codenarc tests (the report will be placed in the build\reports\codenarc)
   * Type: 'gradle srcZip' to run the task that zips up the source (the zip will be in the build\distributions directory)
 
+# Java or Groovy
 **To use with Java or Groovy:**
 ```
 def su = new SyllabaryUtil();
@@ -44,18 +50,6 @@ In order to parse a sentence:
 def su = new SyllabaryUtil();
 def value = tsalagiToSyllabary("osiyo, magi.  donadagohvi")
 ```
-
-**To use with Javascript**
-
-Include the javascript file `cherokeeParser.js` in your HTML.
-
-```
-tsalagiToSyllabary("tsalagi")
-
-parseSyllabary("ᏓᏩᏙᎠ")
-```
-
-If you would like to run the tests with the javascript file - simply uncomment the `javascriptTest.js` line in the **test.html** file.
 
 **Different ways to parse**
 
@@ -124,6 +118,8 @@ gradle convert
 you'll need to have the latest javascript files from: https://github.com/chiquitinxx/grooscript/tree/master/src/main/resources/META-INF/resources
 The current version included here is from "Apr 27, 2020"
 
+**To use with Javascript**
+
 The code in test/javascript/test.html will give you insight into how to include this on your page.
 
 If you want to run the javascript tests to make sure they all work simply uncomment this line:
@@ -131,3 +127,13 @@ If you want to run the javascript tests to make sure they all work simply uncomm
 &lt;!--&lt;script src="javascriptTest.js"&gt;&lt;/script&gt;--&gt;
 
 inside test.html and open the page in your browser.
+
+Include the javascript file `SyllabaryUtil.js` in your HTML.
+
+```
+SyllabaryUtil.tsalagiToSyllabary("tsalagi")
+
+SyllabaryUtil.parseSyllabary("ᏓᏩᏙᎠ")
+```
+
+If you would like to run the tests with the javascript file - simply uncomment the `javascriptTest.js` line in the **test.html** file.
