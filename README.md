@@ -139,7 +139,7 @@ SyllabaryUtil.parseSyllabary("ᏓᏩᏙᎠ")
 If you would like to run the tests with the javascript file - simply uncomment the `javascriptTest.js` line in the **test.html** file.
 
 
-#LICENSE
+# LICENSE
 The Groovy and Javascript SyllabaryUtil files are licensed under MIT - do what you want with them.  We're not responsible for anything.
 
 The Grooscript files are licensed under:\
